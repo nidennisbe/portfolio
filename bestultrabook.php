@@ -7,6 +7,10 @@ $password = $url["9986cb1b"];
 $db = substr($url["heroku_333cefb0b246c8d"], 1);
 $conn_db = mysqli_connect($server, $username, $password, $db);
 
+if ($conn_db->connect_error) {
+    //If failed to connect
+    die("Connection failed: " . $conn->connect_error);
+}
 
 	$result = mysqli_query($conn_db, "SELECT * FROM tb_page_ultrabook");
 	// $result->query("SELECT * FROM tb_page_ultrabook");
