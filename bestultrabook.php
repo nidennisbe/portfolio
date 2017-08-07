@@ -6,16 +6,15 @@ $username = $url["be9d4142c17943"];
 $password = $url["9986cb1b"];
 $db = substr($url["heroku_333cefb0b246c8d"], 1);
 
-$mysqli = new mysqli($server, $username, $password, $db);
+$conn = mysqli_connect($server, $username, $password, $db);
+	
 
-/* check connection */
-if (mysqli_connect_errno()) {
-    printf("Connect failed: %s\n", mysqli_connect_errno);
-    
+if ($conn->mysqli_connect_errno()) {
+    //If failed to connect
+   printf("Connect failed: %s\n", mysqli_connect_error());
 }
 
-$result = $conn->query("select * FROM tb_page_ultrabook");
-}
+	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook");
 	
 	
 	
@@ -23,7 +22,7 @@ $result = $conn->query("select * FROM tb_page_ultrabook");
 <!DOCTYPE html>
 <html>
 <head>
-	  <link rel="stylesheet" type="text/css" href="style/card_layout.css"/>
+			<link rel="stylesheet" type="text/css" href="style/card_layout.css"/>
       <link rel="stylesheet" type="text/css" href="style/stylesheet.css"/>
       <link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
       <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
