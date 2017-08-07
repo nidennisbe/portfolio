@@ -1,0 +1,164 @@
+
+@media(max-width: 1100px){
+header ,
+header nav,
+nav,
+header nav li,
+section,
+.grid_table,
+a,
+
+a.element_footer
+{
+    float:none;
+    text-align:center;
+    width:100%;
+    font-size: 1.1em;
+    margin:0 auto;
+}
+
+
+header{
+    height: 320px;
+}
+    a.element_nav,a.element_nav1,a.element_nav2,a.element_nav3{
+          height: 60px;
+          text-align: left;
+          margin: 10px;
+          width: 83%;
+        color:#464646;
+      }
+
+    a.element_nav :link,
+    a.element_nav:visited {
+        color: #464646;
+        border: 1px solid #ffffff;
+    }
+
+    a.element_footer{
+        height: 80px;
+        font-size: 1.1em;
+        box-shadow: 0 1px 1px 1px rgba(218, 218, 218, 0.73);
+        margin: 5px;
+    }
+
+
+    button,.subscribe_wrap, input
+    {
+        display: block;
+        float:none;
+        width: 100%;
+        margin:0 auto;
+        height:80px;
+        margin-top:10px;
+        font-size: 26px;
+    }
+
+    .slideshow-home{
+        padding-bottom: 25px;
+    }
+
+    .subscribe_panel
+    {
+        width: 100%;
+        height: 250px;
+        padding:25px;
+    }
+
+    input, select, textarea {
+        font-size: 28px;
+
+    }
+
+    .header_wrapper{
+        display:block;
+    }
+    a.btn_sign_up:link{
+        width:30%;margin:0 auto;
+    }
+    .btn_page_up {
+        font-family: sans-serif;
+        background: rgba(0, 0, 0, 0.88);
+        width: 20%;
+        float: right;
+        height: 70px;
+        box-shadow: none;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: rgba(251, 251, 255, 0.43);
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #464646;
+        background-color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 22px;
+        margin-left: 70px;
+    }
+
+    .topnav a:hover {
+        color: #6998ba;
+    }
+
+    .topnav .icon {
+        display: none;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    a.icon{
+        visibility:visible;
+    }
+    #boxes{
+        margin-top:20px;
+        padding-bottom: 0;
+    }
+
+
+    #boxes .box{
+        float:none;
+        text-align: center;
+        width:100%;
+        padding:10px;
+    }
+
+    #boxes .box img{
+        width:500px;
+    }
+    footer {
+        box-shadow: 0 0 5px #888888;
+        padding-top: 50px;
+        height: auto;
+        background-color: #8bc1e9;
+        position: absolute;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: auto;
+        clear: both;
+    }
+
+
+}
+
