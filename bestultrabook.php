@@ -5,20 +5,10 @@ $server = $url["us-cdbr-iron-east-05.cleardb.net"];
 $username = $url["be9d4142c17943"];
 $password = $url["9986cb1b"];
 $db = substr($url["heroku_333cefb0b246c8d"], 1);
-$conn_db = mysqli_connect($url,$server, $username, $password, $db);
 
-if ($conn_db->connect_error) {
-    //If failed to connect
-    die("Connection failed: " . $conn_db->connect_error);
-}
-
-	$result = mysqli_query($conn_db, "SELECT * FROM tb_page_ultrabook");
+$conn = new mysqli($server, $username, $password, $db);
+	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook");
 	// $result->query("SELECT * FROM tb_page_ultrabook");
-
-if ($result->connect_error){
-    echo "Error: " . $result . "<br>" . $conn_db->error;
-}
-
 ?>
 <!DOCTYPE html>
 <html>
