@@ -9,8 +9,8 @@ $db = substr($url["heroku_333cefb0b246c8d"], 1);
 $mysqli = new mysqli($server, $username, $password, $db);
 
 /* check connection */
-if (mysqli_connect_errno()) {
-    printf("Connect failed: %s\n", mysqli_connect_error());
+if (mysqli_errno()) {
+    printf("Connect failed: %s\n", mysqli_error());
     exit();
 }
 
