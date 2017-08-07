@@ -1,12 +1,9 @@
 <?php
 
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$server = $url["us-cdbr-iron-east-05.cleardb.net"];
-$username = $url["be9d4142c17943"];
-$password = $url["9986cb1b"];
-$db = substr($url["heroku_333cefb0b246c8d"], 10);
 
-$conn = mysqli_connect($server, $username, $password, $db);
+
+$conn = mysqli_connect($url);
 	
 
 if ($conn->connect_error) {
