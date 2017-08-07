@@ -1,14 +1,14 @@
 <?php
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
-$server = $url["localhost"];
-$username = $url["root"];
-$password = $url["Benidennis9"];
-$db = substr($url["webdb"], 1);
+$server = $url["us-cdbr-iron-east-05.cleardb.net"];
+$username = $url["be9d4142c17943"];
+$password = $url["9986cb1b"];
+$db = substr($url["heroku_333cefb0b246c8d"], 1);
 
 $conn = new mysqli($server, $username, $password, $db);
 
-	$result = mysqli_query($url, "SELECT * FROM tb_page_ultrabook");
+	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook");
 ?>
 <!DOCTYPE html>
 <html>
