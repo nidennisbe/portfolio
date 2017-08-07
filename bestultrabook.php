@@ -13,7 +13,8 @@ if ($conn->connect_error) {
     //If failed to connect
     die("Connection failed: " . $conn->connect_error);
 }
-	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook");
+	$result = $mysqli->query($conn, "SELECT * FROM tb_page_ultrabook")
+	
 	
 	
 	
