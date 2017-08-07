@@ -14,11 +14,7 @@ if (mysqli_connect_errno()) {
     
 }
 
-/* return name of current default database */
-if ($result = $mysqli->query("SELECT * FROM tb_page_ultrabook()")) {
-    $row = $result->fetch_row();
-    
-    $result->close();
+$result = $conn->query("select * FROM tb_page_ultrabook");
 }
 	
 	
