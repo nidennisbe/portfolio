@@ -14,12 +14,8 @@ if ($conn_db->connect_error) {
 
 	$result = mysqli_query($conn_db, "SELECT * FROM tb_page_ultrabook");
 	// $result->query("SELECT * FROM tb_page_ultrabook");
-	if ($conn_db->query($result) === TRUE) {
-     $msg = 'successfully';
-    
 
-    //else show error
-} else {
+if ($result->connect_error){
     echo "Error: " . $result . "<br>" . $conn_db->error;
 }
 
