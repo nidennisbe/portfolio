@@ -16,7 +16,7 @@ if ($conn_db->connect_error) {
 	// $result->query("SELECT * FROM tb_page_ultrabook");
 	if ($conn_db->query($result) === TRUE) {
      $msg = 'successfully';
-     echo "<script> window.location.assign('index.php'); </script>";
+    
 
     //else show error
 } else {
