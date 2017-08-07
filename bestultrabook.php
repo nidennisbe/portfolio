@@ -1,7 +1,14 @@
-
 <?php
-	$db = mysqli_connect("localhost", "root", "Benidennis9", "webdb");
-	$result = mysqli_query($db, "SELECT * FROM tb_page_ultrabook");
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+$server = $url["localhost"];
+$username = $url["root"];
+$password = $url["Benidennis9"];
+$db = substr($url["webdb"], 1);
+
+$conn = new mysqli($server, $username, $password, $db);
+
+	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook");
 ?>
 <!DOCTYPE html>
 <html>
