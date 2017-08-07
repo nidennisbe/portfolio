@@ -9,8 +9,8 @@ $db = substr($url["heroku_333cefb0b246c8d"], 1);
 $mysqli = new mysqli($server, $username, $password, $db);
 
 /* check connection */
-if (mysqli_errno()) {
-    printf("Connect failed: %s\n", mysqli_error());
+if (mysqli_connect_error()) {
+    printf("Connect failed: %s\n", mysqli_connect_error);
     exit();
 }
 
@@ -27,7 +27,7 @@ if ($result = $mysqli->query("SELECT * FROM tb_page_ultrabook()")) {
 <!DOCTYPE html>
 <html>
 <head>
-			<link rel="stylesheet" type="text/css" href="style/card_layout.css"/>
+	  <link rel="stylesheet" type="text/css" href="style/card_layout.css"/>
       <link rel="stylesheet" type="text/css" href="style/stylesheet.css"/>
       <link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
       <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
