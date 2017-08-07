@@ -9,7 +9,7 @@ $conn_db = mysqli_connect($server, $username, $password, $db);
 
 if ($conn_db->connect_error) {
     //If failed to connect
-    die("Connection failed: " . $conn->connect_error);
+    die("Connection failed: " . $conn_db->connect_error);
 }
 
 	$result = mysqli_query($conn_db, "SELECT * FROM tb_page_ultrabook");
@@ -20,7 +20,7 @@ if ($conn_db->connect_error) {
 
     //else show error
 } else {
-    echo "Error: " . $result . "<br>" . $conn->error;
+    echo "Error: " . $result . "<br>" . $conn_db->error;
 }
 
 ?>
