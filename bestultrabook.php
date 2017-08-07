@@ -6,15 +6,20 @@ $username = $url["be9d4142c17943"];
 $password = $url["9986cb1b"];
 $db = substr($url["heroku_333cefb0b246c8d"], 1);
 
+$mysqli = new mysqli($server, $username, $password, $db);
 
-	$mysqli = new mysqli($server, $username, $password, $db);
-
-if ($conn->connect_error) {
-    //If failed to connect
-    die("Connection failed: " . $conn->connect_error);
+/* check connection */
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
 }
-	$result = $mysqli->query($conn, "SELECT * FROM tb_page_ultrabook")
-	
+
+/* return name of current default database */
+if ($result = $mysqli->query("SELECT * FROM tb_page_ultrabook()")) {
+    $row = $result->fetch_row();
+    
+    $result->close();
+}
 	
 	
 	
