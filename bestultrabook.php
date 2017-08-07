@@ -8,7 +8,7 @@ $db = substr($url["webdb"], 1);
 
 $conn = new mysqli($server, $username, $password, $db);
 
-	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook");
+	$result = mysqli_query($url, "SELECT * FROM tb_page_ultrabook");
 ?>
 <!DOCTYPE html>
 <html>
