@@ -15,10 +15,8 @@ if ($conn->connect_error) {
 }
 
 	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook");
-
-
-
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
