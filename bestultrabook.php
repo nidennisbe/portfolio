@@ -33,7 +33,7 @@ if ($conn->connect_error) {
   include "header.php";
   include "nav.php";
   ?>
-  <div name="title" style="border-bottom: solid 1px #6998ba;height:100px;"><h1 style="color:#6998ba;padding:35px" ><strong>ULTRABOOKS</strong></h1></div>
+  <div name="title" style="border-bottom: solid 1px #6998ba;height:100px;"><h1 style="color:#6998ba;padding:35px" ><strong>ULTRABOOKS REVIEW</strong></h1></div>
 	<section>
 				<div id="content">
 							<?php
