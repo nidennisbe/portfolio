@@ -1,8 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "Benidennis9";
-$dbname = "webdb";
+$servername = "h40lg7qyub2umdvb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$username = "t8mvn41zc3dvlxhu";
+$password = "fhzr9pbe4y18yxlz";
+$dbname = "k6zc9jmzecfdzsgk";
+
 
 //get data from fields
 $uname=$_GET["username"];
