@@ -8,7 +8,7 @@
             <a class="element_nav1" href="bestultrabook.php">Ultrabooks</a>
             <a class="element_nav2" href="bestgaminglaptop.php">Gaming Laptops</a>
             <a class="element_nav3" href="aboutus.php">About Us</a>
-            <a class="btn_sign_up"  href="sign_in.php">NY Account</a>
+            <a class="btn_sign_up"  href="sign_in.php">My Account</a>
             <br />
       </a>
     </div>
