@@ -4,10 +4,10 @@ $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $server = $url["us-cdbr-iron-east-05.cleardb.net"];
 $username = $url["be9d4142c17943"];
 $password = $url["9986cb1b"];
-$db = substr($url["heroku_333cefb0b246c8d"], 1);
+$db = $url["heroku_333cefb0b246c8d"];
 
 $conn = mysqli_connect($server, $username, $password, $db);
-	
+
 
 if ($conn->connect_error) {
     //If failed to connect
@@ -15,9 +15,9 @@ if ($conn->connect_error) {
 }
 
 	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook");
-	
-	
-	
+
+
+
 ?>
 <!DOCTYPE html>
 <html>
