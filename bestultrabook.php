@@ -1,10 +1,10 @@
 <?php
 
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$server = $url["us-cdbr-iron-east-05.cleardb.net"];
-$username = $url["be9d4142c17943"];
-$password = $url["9986cb1b"];
-$db = $url["heroku_333cefb0b246c8d"];
+$server = $url["h40lg7qyub2umdvb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com"];
+$username = $url["t8mvn41zc3dvlxhu"];
+$password = $url["fhzr9pbe4y18yxlz"];
+$db = $url["k6zc9jmzecfdzsgk"];
 
 $conn = mysqli_connect($server, $username, $password, $db);
 
