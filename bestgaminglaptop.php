@@ -43,6 +43,7 @@ include "nav.php";
 							<?php
 								while ($row = mysqli_fetch_array($result)) {
 									echo "<div id='img_div'><a href='".$row['url']."' </a>";
+                  echo "<p id='p-date-item'>latest modified: ".$row['date']."<p>";
 									echo "<img src='".$row['image']."' >";
 							    echo "<h3 id='h3-title-item'>".$row['title']."</h3>";
 							    echo "<div >";

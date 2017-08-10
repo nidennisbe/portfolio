@@ -39,7 +39,7 @@ if ($conn->connect_error) {
 							<?php
 								while ($row = mysqli_fetch_array($result)) {
 									echo "<div id='img_div'><a href='".$row['url']."' </a>";
-                  echo "<p id='p-date-item'>latest modified: ".$row[time_ago('date');]."<p>";
+                  echo "<p id='p-date-item'>latest modified: ".$row['date']."<p>";
 									echo "<img src='".$row['image']."' >";
 							    echo "<h3 id='h3-title-item'>".$row['title']."</h3>";
 							    echo "<div >";
@@ -49,42 +49,7 @@ if ($conn->connect_error) {
 								}
 							?>
 
-
-
-
-
-
 <?php
-
-function time_ago($date) {
-    if (empty($date)) {
-        return "No date provided";
-    }
-    $periods = array("second", "minute", "hour", "day", "week", "month", "year", "decade");
-    $lengths = array("60", "60", "24", "7", "4.35", "12", "10");
-    $now = time();
-    $unix_date = strtotime($date);
-// check validity of date
-    if (empty($unix_date)) {
-        return "Bad date";
-    }
-// is it future date or past date
-    if ($now > $unix_date) {
-        $difference = $now - $unix_date;
-        $tense = "ago";
-    } else {
-        $difference = $unix_date - $now;
-        $tense = "from now";
-    }
-    for ($j = 0; $difference >= $lengths[$j] && $j < count($lengths) - 1; $j++) {
-        $difference /= $lengths[$j];
-    }
-    $difference = round($difference);
-    if ($difference != 1) {
-        $periods[$j].= "s";
-    }
-    return "$difference $periods[$j] {$tense}";
-}
 include "footer.php";
 ?>
 </body>
