@@ -26,6 +26,7 @@ include "nav.php";
     <div name="title" style="height:100px;width:300px;"><h1 style="color:#6998ba;padding:35px;font-size:28px" ><strong>Contact Us</strong></h1></div>
 
 <ul style="color:grey;font-size:18px">
+  <li><img class="img" style=" border-radius: 50%;" src="pics/nidennis.jpg"></li><br/>
   <li>Address: 37 Symonds St Grafton, Auckland New Zealand</li><br/>
   <li>Tel: 093 15 33 450 | 012 92 49 90| 097 52 68 542</li><br/>
   <li>Email: nidennisbe@hotmail.com</li><br/>
