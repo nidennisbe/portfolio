@@ -74,7 +74,7 @@ include "nav.php";
        <div class=""style="border:solid 1px white;background:black;display: inline-block;">
        <ul>
           <a href="bestultrabook.php"style="color:white">Ultrabooks</a>
-          <a href="Bestgaminglaptop.php"style="color:white">Gaming Laptops</a>
+          <a href="bestgaminglaptop.php"style="color:white">Gaming Laptops</a>
         </ul>
      </div>
      </section>
