@@ -20,6 +20,7 @@ if ($conn->connect_error) {
 <!DOCTYPE html>
 <html>
 <head>
+      <link rel="icon" href="pics/nidennis.jpg">
 			<link rel="stylesheet" type="text/css" href="style/card_layout.css"/>
       <link rel="stylesheet" type="text/css" href="style/stylesheet.css"/>
       <link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
