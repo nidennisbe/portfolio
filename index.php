@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
     <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
     <meta charset="utf-8">
-    <title>Homepage</title>
+    <title>Home</title>
     <meta name="viewport" content="width=680px">
 </head>
 <body>
