@@ -88,6 +88,7 @@ header{
     .topnav {
         overflow: hidden;
         background-color: rgba(251, 251, 255, 0.43);
+        padding:0;
     }
 
     .topnav a {
