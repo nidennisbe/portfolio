@@ -40,6 +40,8 @@ if ($conn->connect_error) {
 								while ($row = mysqli_fetch_array($result)) {
 									echo "<div id='img_div'><a href='".$row['url']."' </a>";
 									echo "<img src='".$row['image']."' >";
+                  echo "<p id='p-desc-item'>".$row['date']."<p>";
+                  echo "</div>";
 							    echo "<h3 id='h3-title-item'>".$row['title']."</h3>";
 							    echo "<div >";
 									echo "<p id='p-desc-item'>".$row['description']."<p>";
