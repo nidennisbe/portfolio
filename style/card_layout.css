@@ -5,7 +5,7 @@
 
 #img_div{
   width:80%;
-  height: 20%;
+  height: 30%;
   padding: 15px;
   margin-left: 35px;
   min-width: 10%;
@@ -15,7 +15,7 @@
   transition: 0.3s;
   border-radius: 5px;
   margin-bottom: 45px;
-  margin: 0 auto;
+
 }
 
 #img_div:hover{
