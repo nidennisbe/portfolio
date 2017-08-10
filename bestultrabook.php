@@ -38,9 +38,9 @@ if ($conn->connect_error) {
 				<div id="content">
 							<?php
 								while ($row = mysqli_fetch_array($result)) {
+                  echo "<p id='p-date-item'>latest modified:".$row['date']."<p>";
 									echo "<div id='img_div'><a href='".$row['url']."' </a>";
 									echo "<img src='".$row['image']."' >";
-                  echo "<p id='p-date-item'>latest modified:".$row['date']."<p>";
 							    echo "<h3 id='h3-title-item'>".$row['title']."</h3>";
 							    echo "<div >";
 									echo "<p id='p-desc-item'>".$row['description']."<p>";
