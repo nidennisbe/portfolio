@@ -38,17 +38,17 @@ if ($conn->connect_error) {
 	<section>
 				<div id="content">
 							<?php
-								while ($row = mysqli_fetch_array($result)) {
-									echo "<div id='img_div'><a href='review-detail.php?id="$row['id'];"' </a>";
-                  echo "<p id='p-date-item'>latest modified: ".$row['date']."<p>";
-									echo "<img src='".$row['image']."' >";
-							    echo "<h3 id='h3-title-item'>".$row['title']."</h3>";
-							    echo "<div >";
-									echo "<p id='p-desc-item'>".$row['description']."<p>";
-								echo "</div>";
-						echo "</div>";
+								while ($row = mysqli_fetch_array($result))?> {
+									<div id='img_div'><a href="review-detail.php?id=<?php echo.$row['id'];?>" </a>
+                  <p id='p-date-item'>latest modified: <?php echo.$row['date'].?><p>
+									<img src="<?php echo.$row['image'].?>" >
+							    <h3 id='h3-title-item'><?php echo.$row['title'].?></h3>
+							    <div>
+									<p id='p-desc-item'><?php echo.$row['description'].?><p>
+								</div>
+						</div>
 								}
-							?>
+
 
 <?php
 include "footer.php";
