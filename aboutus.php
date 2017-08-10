@@ -15,14 +15,12 @@ include "nav.php";
 <!-- ---------------------------START SECTION------------------------------------------------- -->
 
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#6998ba;padding:35px" ><strong>ABOUT US</strong></h1></div>
-
 <section>
 <center>
   <p>&nbsp;</p>
   <p class="aboutus_desc">IO Tech Review which is a review website that particularly focus on reveiw laptops. It was founded by Nidennis Be in 2017
-    Because the Computer market in Cambodia quite not good enough we decided to start up our business since the early 2014.At first we sell only normal laptops but there are alot of demading from our comstomers now we also sell a famouse brand of gaming laptops also.
-    One of the thing that we proud of our large and well-known company. Every year we have been sold around 1000 laptops, people start realize that our company bring only good quality products to serve to customer, and our company was the first company that sell famouse gaming machine laptops. by the end of 2014 we have been archive our goal to enter the world famouse computer shop in Asia.
-    There one more big reason for us to operate this computer shop because we wanted Cambodian to test the quality of the most powerful laptops in the world.
+    Because the Computer market quite grow rapidly in the last decade. As a result we decided to create this website to illustrate laptops review to our user, so they got some
+    idea what kind of laptops suit their needs. In the near future we are going to do mobile phone review and other tech gadgets.
   </p>
   <hr>
     <div name="title" style="height:100px;width:300px;"><h1 style="color:#6998ba;padding:35px;font-size:28px" ><strong>Contact Us</strong></h1></div>
