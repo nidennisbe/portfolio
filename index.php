@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+    <link rel="icon" <div class="clip-text clip-text_tree">IO TECH REVIEW </div> />
     <link rel="stylesheet" type="text/css" href="style/stylesheet.css"/>
     <link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
     <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
