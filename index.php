@@ -10,10 +10,7 @@
     <meta name="viewport" content="width=680px">
 </head>
 <body>
-<?php
-include "header.php";
-include "nav.php";
-?>
+
 <!-- ---------------------------START SECTION------------------------------------------------- -->
 <center>
 <div class="subscribe_panel">
