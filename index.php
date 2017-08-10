@@ -54,16 +54,28 @@ include "nav.php";
 
      <section id="boxes">
      <div class="container">
-       <h1 class="title_goal">SELECT REVIEW CATEGORIES</h1>
+       <h1 class="title_goal">Our missions</h1>
      <div class="box">
-     <a href="bestultrabook.php"><img src="./pics/ultrabooks/macbook12.png"style="width:75%"></a>
-     <h3 class="text-goal-h3">Ultrabooks review</h3>
+     <a href="bestultrabook.php"><img src="./pics/goal/laptop_image.jpg"style="width:60%"></a>
+     <h3 class="text-goal-h3">Laptops review</h3>
+     <p>Offer best articles about tech base on our experiences of using those devices</p>
      </div>
 
      <div class="box">
-     <a href="bestgaminglaptop.php"><img src="./pics/ultrabooks/msi-gt80-2qc.png"style="width:55%"></a>
-     <h3>Gaming laptops review</h3>
+     <a href="bestgaminglaptop.php"><img src="./pics/goal/update.jpg"style="width:49%"></a>
+     <h3>Latest Review</h3>
+     <p>Deliver the up-todate technology tending </p>
      </div>
+     </div>
+     </section>
+
+     <section class="cateogires_section" style="height:auto;padding-bottom:600px">
+       <h1 class="title_goal">Browse review categories</h1>
+       <div class=""style="border:solid 1px white;background:black;display: inline-block;">
+       <ul>
+          <a href="bestultrabook.php"style="color:white">Ultrabooks</a>
+          <a href="Bestgaminglaptop.php"style="color:white">Gaming Laptops</a>
+        </ul>
      </div>
      </section>
 
