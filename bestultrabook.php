@@ -41,19 +41,6 @@ if ($conn->connect_error) {
 									echo "<div id='img_div'><a href='".$row['url']."' </a>";
                   echo "<p id='p-date-item'>latest modified: ".$row['date']."<p>";
 									echo "<img src='".$row['image']."' >";
-
-    for($x=1;$x<=$starNumber;$x++) {
-        echo '<img src="path/to/star.png" />';
-    }
-    if (strpos($starNumber,'.')) {
-        echo '<img src="path/to/half/star.png" />';
-        $x++;
-    }
-    while ($x<=5) {
-        echo '<img src="path/to/blank/star.png" />';
-        $x++;
-    }
-
 							    echo "<h3 id='h3-title-item'>".$row['title']."</h3>";
 							    echo "<div >";
 									echo "<p id='p-desc-item'>".$row['description']."<p>";
