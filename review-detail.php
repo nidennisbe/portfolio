@@ -38,7 +38,7 @@ include "nav.php";
 
 ?>
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px;"><h1 style="color:#6998ba;padding:35px" ><strong>Review Detail</strong></h1></div>
-
+<section
 <div id="content">
   <?php do { ?>
         <img src="<?php echo $row['image'];?>" >
@@ -46,8 +46,7 @@ include "nav.php";
         <p id="p-desc-item"><?php echo $row['description'];?><p>
         </div>
           <?php } while ($row = mysqli_fetch_array($result)) ?>
-
-
+</section>
 <!-- ---------------------------END OF SECTION------------------------------------------------- -->
 <?php
 include "footer.php";
