@@ -39,7 +39,7 @@ include "nav.php";
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#6998ba;padding:35px" ><strong>GAMING LAPTOPS REVIEW</strong></h1></div>
 <!-- ---------------------------START SECTION------------------------------------------------- -->
 
-<section>
+
       <div id="content">
             <?php do { ?>
                 <div id="img_div"><a href="review-detail-gaming.php?id=<?php echo $row['id'];?>">
@@ -49,7 +49,7 @@ include "nav.php";
                     <p id="p-desc-item"><?php echo $row['description'];?><p>
                 </div>
         <?php } while ($row = mysqli_fetch_array($result)) ?>
-      </section>
+    
 <?php
 include "footer.php";
 ?>
