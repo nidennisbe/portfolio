@@ -23,7 +23,8 @@
         die("Connection failed: " . $conn->connect_error);
     }
 
-    	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook WHERE id=$id ");
+      $id_review_detail = $_GET['id'];
+    	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook WHERE id=$id_review_detail");
     ?>
 </head>
 <body>
@@ -33,26 +34,13 @@ include "nav.php";
 ?>
 <!-- ---------------------------START SECTION------------------------------------------------- -->
 <center>
-<?php
-  $id = $_GET["id"];
-  switch ($id) {
-      case 0:
-          include('contact.php');
-          break;
-      case 1:
-          include('home.php');
-          break;
-      case 2:
-          include('whoweare.php');
-          break;
-  }
+
 ?>
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px;"><h1 style="color:#6998ba;padding:35px" ><strong>ULTRABOOKS</strong></h1></div>
 <section>
       <div id="content">
             <?php
                 echo "<div id='img_div'><a href='".$row['url']."' </a>";
-                echo "<img src='".$row['image']."' >";
                 echo "<h3 id='h3-title-item'>".$row['title']."</h3>";
                 echo "<div >";
                 echo "<p id='p-desc-item'>".$row['description']."<p>";
