@@ -38,7 +38,7 @@ if ($conn->connect_error) {
 	<section>
 				<div id="content">
 							<?php
-								while ($row = mysqli_fetch_array($result))?> {
+								while ($row = mysqli_fetch_array($result)) {?>
 									<div id='img_div'><a href="review-detail.php?id=<?php echo $row['id'];?>"> </a>
                   <p id='p-date-item'>latest modified: <?php echo $row['date'];?><p>
 									<img src="<?php echo $row['image'];?>" >
