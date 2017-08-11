@@ -39,7 +39,7 @@ if ($conn->connect_error) {
 				<div id="content">
 							<?php do { ?>
 
-									<div id="img_div"><a href="review-detail.php?id=<?php echo $row['id'];?>"> </a>
+									<div id="img_div"><a href="review-detail.php?id=<?php echo $row['id'];?>"> <a>
                   <p id="p-date-item"> <?php echo 'latest modified:'$row['date'];?></p>
 									<img src="<?php echo $row['image'];?>" >
 							    <h3 id="h3-title-item"><?php echo $row['title'];?></h3>
