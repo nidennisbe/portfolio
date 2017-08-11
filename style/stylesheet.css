@@ -538,6 +538,7 @@ ul li {
     padding-top: 3.5%;
     overflow:auto;
     padding-bottom: 0;
+    height: auto;
 }
 
 #boxes .box{
