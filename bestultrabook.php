@@ -44,7 +44,7 @@ if ($conn->connect_error) {
     							    <h3 id="h3-title-item"><?php echo $row['title'];?></h3>
     									<p id="p-desc-item"><?php echo $row['description'];?><p>
 						      </div>
-          <?php } while ($row = mysqli_fetch_array($result)) ?>
+          <?php } while ($row = mysqli_fetch_assoc($result)) ?>
         </section>
 <?php
 include "footer.php";
