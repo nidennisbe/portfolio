@@ -39,13 +39,11 @@ include "nav.php";
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px;"><h1 style="color:#6998ba;padding:35px" ><strong>Review Detail</strong></h1></div>
 <section>
       <div id="content">
-            <?php
-                echo "<a> href='".$row['url']."' </a>";
-                echo "<h3>".$row['title']."</h3>";
-                echo "<p>".$row['description']."<p>";
-              echo "</div>";
-          echo "</div>";
-?>
+        <img src="<?php echo $row['image'];?>" >
+        <h3 id="h3-title-item"><?php echo $row['title'];?></h3>
+        <div>
+        <p id="p-desc-item"><?php echo $row['description'];?><p>
+        </div>
 
 <!-- ---------------------------END OF SECTION------------------------------------------------- -->
 <?php
