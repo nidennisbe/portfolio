@@ -35,7 +35,7 @@ if ($conn->connect_error) {
   include "nav.php";
   ?>
   <div name="title" style="border-bottom: solid 1px #6998ba;height:100px;"><h1 style="color:#6998ba;padding:35px" ><strong>ULTRABOOKS REVIEW</strong></h1></div>
-
+	<section>
 				<div id="content">
 							<?php do { ?>
 									<div id="img_div"><a href="review-detail.php?id=<?php echo $row['id'];?>">
@@ -45,7 +45,7 @@ if ($conn->connect_error) {
     									<p id="p-desc-item"><?php echo $row['description'];?><p>
 						      </div>
           <?php } while ($row = mysqli_fetch_array($result)) ?>
-
+        </section>
 <?php
 include "footer.php";
 ?>

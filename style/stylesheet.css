@@ -151,7 +151,6 @@ footer {
     left: 0;
     overflow: hidden;
     clear: both;
-    margin-top: 100px;
 }
 
 #container {
@@ -184,7 +183,7 @@ section {
     width: 100%;
     background-color: white;
     margin-bottom: -410px;
-    padding-bottom: 750px;
+    padding-bottom: 850px;
     box-shadow: 0 0 1px #888888;
 }
 
