@@ -40,10 +40,12 @@ include "nav.php";
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px;"><h1 style="color:#6998ba;padding:35px" ><strong>Review Detail</strong></h1></div>
 
 <div id="content">
+  <?php do { ?>
         <img src="<?php echo $row['image'];?>" >
         <h3 id="h3-title-item"><?php echo $row['title'];?></h3>
         <p id="p-desc-item"><?php echo $row['description'];?><p>
         </div>
+          <?php } while ($row = mysqli_fetch_array($result)) ?>
 
 
 <!-- ---------------------------END OF SECTION------------------------------------------------- -->
