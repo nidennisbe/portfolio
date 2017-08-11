@@ -306,7 +306,7 @@ a:visited {
 
 a:hover,
 a:active {
-    opacity: .90;
+    opacity: 1.0;
     color: #fbfbff;
     /*font-weight: bold;*/
     /*-moz-transition: .2s;*/
