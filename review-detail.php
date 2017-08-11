@@ -40,7 +40,7 @@ include "nav.php";
 <section>
       <div id="content">
         <img src="<?php echo $row['image'];?>" >
-        <h3 id="h3-title-item"><?php echo $row['title'];?></h3>
+        <h3 id="h3-title-item" style="color:black"><?php echo $row['title'];?></h3>
         <div>
         <p id="p-desc-item"><?php echo $row['description'];?><p>
         </div>
