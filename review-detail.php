@@ -24,7 +24,7 @@
     }
 
       $id = $_GET['id'];
-    	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook WHERE id=$id");
+    	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook ");
     ?>
 </head>
 <body>
