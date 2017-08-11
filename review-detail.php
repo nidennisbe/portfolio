@@ -41,7 +41,7 @@ include "nav.php";
 <section>
 <div id="content">
         <img src="<?php echo $row['image'];?>" >
-        <h3 id="h3-title-item" style="color:black"><?php echo $row['title'];?></h3>
+        <h3 id="h3-title-item" style="color:black">aaaaaaa<?php echo $row['title'];?></h3>
         <p id="p-desc-item"><?php echo $row['description'];?><p>
         </div>
       </section>
