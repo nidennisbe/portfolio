@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="style/card_layout.css"/>
     <link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
     <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
     <meta charset="utf-8">
@@ -24,7 +25,7 @@
     }
 
       $id = $_GET['id'];
-    	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook ");
+    	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook WHERE id=$id");
     ?>
 </head>
 <body>
