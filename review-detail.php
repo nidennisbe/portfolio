@@ -38,7 +38,7 @@ include "nav.php";
 
 ?>
   <?php do { ?>
-<div name="title" style="border-bottom: solid 1px #6998ba;height:100px;"><h3 style="color:#6998ba;padding:35px" >  <h3><?php echo $row['title'];?></h3></div>
+<div name="title" style="border-bottom: solid 1px #6998ba;height:100px;"><h1 style="color:#6998ba;padding:35px" >  <h1><?php echo $row['title'];?></h1></div>
 <section
 <div id="content">
 
