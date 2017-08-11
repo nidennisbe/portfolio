@@ -40,12 +40,11 @@ if ($conn->connect_error) {
 							<?php do { ?>
 
 									<div id="img_div"><a href="review-detail.php?id=<?php echo $row['id'];?>">
-                  <p id="p-date-item"><?php echo $row['date'];?></p>
+                  <p id="p-date-item">latest modified: <?php echo $row['date'];?></p>
 									<img src="<?php echo $row['image'];?>" >
 							    <h3 id="h3-title-item"><?php echo $row['title'];?></h3>
-							    <div>
 									<p id="p-desc-item"><?php echo $row['description'];?><p>
-								</div>
+
 						</div>
           <?php } while ($row = mysqli_fetch_array($result)) ?>
 
