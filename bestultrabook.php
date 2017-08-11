@@ -45,6 +45,7 @@ if ($conn->connect_error) {
     									<p id="p-desc-item"><?php echo $row['description'];?><p>
 						      </div>
           <?php } while ($row = mysqli_fetch_array($result)) ?>
+        </section>
 <?php
 include "footer.php";
 ?>

@@ -39,20 +39,17 @@ include "nav.php";
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#6998ba;padding:35px" ><strong>GAMING LAPTOPS REVIEW</strong></h1></div>
 <!-- ---------------------------START SECTION------------------------------------------------- -->
 
-	<section>
-				<div id="content">
-							<?php
-								while ($row = mysqli_fetch_array($result)) {
-									echo "<div id='img_div'><a href='".$row['url']."' </a>";
-                  echo "<p id='p-date-item'>latest modified: ".$row['date']."<p>";
-									echo "<img src='".$row['image']."' >";
-							    echo "<h3 id='h3-title-item'>".$row['title']."</h3>";
-							    echo "<div >";
-									echo "<p id='p-desc-item'>".$row['description']."<p>";
-								echo "</div>";
-						echo "</div>";
-								}
-							?>
+<section>
+      <div id="content">
+            <?php do { ?>
+                <div id="img_div"><a href="review-detail-gaming.php?id=<?php echo $row['id'];?>">
+                    <p id="p-date-item">latest modified: <?php echo $row['date'];?></p>
+                    <img src="<?php echo $row['image'];?>" >
+                    <h3 id="h3-title-item"><?php echo $row['title'];?></h3>
+                    <p id="p-desc-item"><?php echo $row['description'];?><p>
+                </div>
+        <?php } while ($row = mysqli_fetch_array($result)) ?>
+      </section>
 <?php
 include "footer.php";
 ?>
