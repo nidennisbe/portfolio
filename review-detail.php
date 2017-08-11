@@ -23,8 +23,8 @@
         die("Connection failed: " . $conn->connect_error);
     }
 
-      $id_review_detail = $_GET['id'];
-    	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook WHERE id=$id_review_detail");
+      $id = $_GET['id'];
+    	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook WHERE id=$id");
     ?>
 </head>
 <body>
