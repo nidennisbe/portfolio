@@ -119,10 +119,10 @@ body {
     }
 
     .product-img {
-        float: none;
+        float: left;
         height: 420px;
         padding-left: 0;
-        width: 45%;
+        width: 95%;
     }
 
     .product-img img {
@@ -132,7 +132,7 @@ body {
 
     .product-info {
         margin: 0 auto;
-        float: none;
+        float: left;
         height: 420px;
         width: 55%;
         border-radius: 0 7px 10px 7px;
