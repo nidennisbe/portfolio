@@ -24,7 +24,7 @@ if ($conn->connect_error) {
       <link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
       <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
       <meta charset="utf-8">
-      <title>Top ultrabooks 2017</title>
+      <title>Ultrabooks</title>
       <meta name="viewport" content="width=680px">
 </head>
 <body>
