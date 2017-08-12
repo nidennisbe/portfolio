@@ -24,15 +24,11 @@
       <meta name="viewport" content="width=680px">
 </head>
 <body>
-  <?php
-  include "header.php";
-  include "nav.php";
-  ?>
   <div name="title" style="background-color:#89b724;height:100px;"><h1 style="color:white;padding:35px" ><strong>Top Ultrabooks</strong></h1></div>
 	<section>
 				<div id="content">
 							<?php do { ?>
-							
+
   <div class="wrapper">
     <div class="product-img">
       <img src="<?php echo $row['image'];?>" height="420" width="327">
@@ -50,12 +46,8 @@
     </div>
   </div>
 
-
           <?php } while ($row = mysqli_fetch_assoc($result)) ?>
         </section>
-<?php
-include "footer.php";
-?>
 </div>
 </body>
 </html>
