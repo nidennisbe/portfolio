@@ -26,7 +26,7 @@ header{
           text-align: left;
           margin: 10px;
           width: 83%;
-        color:#464646;
+          color:#464646;
       }
 
     a.element_nav :link,
@@ -106,7 +106,7 @@ header{
     }
 
     .topnav a:hover {
-        color: #fffcf9;
+        color: #757575;
     }
 
     .topnav .icon {
