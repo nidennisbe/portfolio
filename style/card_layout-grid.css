@@ -41,7 +41,7 @@ body {
 
 .product-text h1 {
   margin: 0 0 0 38px;
-  padding-top: 52px;
+  padding-top: 25px;
   font-size: 34px;
   color: #474747;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .product-text p {
-  height: 125px;
+  height: 140px;
   margin: 0 0 0 38px;
   font-family: 'Playfair Display', serif;
   color: #8d8d8d;
