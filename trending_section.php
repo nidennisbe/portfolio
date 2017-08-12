@@ -30,7 +30,7 @@
 							<?php do { ?>
   <div class="wrapper">
 				    <div class="product-img">
-				      <img src="<?php echo $row['image'];?>" height="420" width="100%">
+				      <img src="<?php echo $row['image'];?>" height="400" width="90%">
 				    </div>
 				    <div class="product-info">
 				      <div class="product-text">
