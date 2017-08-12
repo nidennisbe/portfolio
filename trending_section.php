@@ -32,7 +32,7 @@
 	<section>
 				<div id="content">
 							<?php do { ?>
-								<body>
+							
   <div class="wrapper">
     <div class="product-img">
       <img src="<?php echo $row['image'];?>" height="420" width="327">
@@ -50,7 +50,7 @@
     </div>
   </div>
 
-</body>
+
           <?php } while ($row = mysqli_fetch_assoc($result)) ?>
         </section>
 <?php
