@@ -46,7 +46,7 @@
           <?php }
 					if ($row=mssql_fetch_assoc($result) > 0) {
 					while ($result && $row = mysqli_fetch_assoc($result)) ?>
-				}
+					
         </section>
 </div>
 </body>
