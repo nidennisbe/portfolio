@@ -37,15 +37,15 @@
         <h2>latest modified: <?php echo $row['date'];?></h2>
         <p><?php echo $row['description'];?> </p>
       </div>
-      <div class="product-price-btn">
-        <button type="button">Read more</button>
-      </div>
     </div>
+		<div class="product-price-btn">
+			<button type="button">Read more</button>
+		</div>
   </div>
 
 <?php }
 					while ($result && $row = mysqli_fetch_assoc($result))
-				
+
 					 ?>
 
         </section>
