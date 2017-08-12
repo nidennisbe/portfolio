@@ -16,8 +16,15 @@
 ?>
 
 <center>
-
-
+    <div class="subscribe_panel">
+      <div class="subscribe_wrapper">
+              <form class="sub_form">
+                    <h1 id="subscribe_title" style=" font-family: 'arial', sans-serif;display:inline;color:grey;">Subscribe with us to get latest review</h1>
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit" class="button_1" style="font-family: 'arial', sans-serif">Subscribe</button>
+              </form>
+      </div>
+    </div>
 <center>
 <section class="slideshow-home" style="background-color:#8bc1e9;">
       <div class="slideshow-container" style="width=100%;padding-bottom:0">
