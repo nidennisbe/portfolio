@@ -104,7 +104,7 @@
 </section>
 
 <?php
-include "trending_section";
+include "trending_section.php";
 ?>
 
 <!-- ---------------------------END OF SECTION------------------------------------------------- -->
