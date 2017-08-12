@@ -29,14 +29,14 @@ body {
 .product-info {
   float: left;
   height: 420px;
-  width: 65%;
+  width: 55%;
   border-radius: 0 7px 10px 7px;
   background-color: #ffffff;
 }
 
 .product-text {
   height: 300px;
-  width: 65%;
+  width: 55%;
 }
 
 .product-text h1 {
