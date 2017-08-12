@@ -27,16 +27,16 @@
 				<div id="content">
 <?php do { ?>
 	<div class="wrapper">
-				    	<div class="item-img">
-				      		<img src="<?php echo $row['image'];?>" object-fit: cover; height="420" width="100%">
+				    	<div class="product-img">
+				      		<img src="<?php echo $row['image'];?>" height="420" width="100%">
 				    	</div>
-				    	<div class="item-info-holder">
-						      <div class="item-text">
+				    	<div class="product-info">
+						      <div class="product-text">
 							        <h1><?php echo $row['title'];?></h1>
 							        <h2>latest modified: <?php echo $row['date'];?></h2>
 							        <p><?php echo $row['description'];?> </p>
 						      </div>
-									<div class="btn-holder">
+									<div class="product-price-btn">
 											<button type="button" onclick="location.href='review-detail-gaming.php?id=<?php echo $row['id'];?>';">Read more</button>
 									</div>
 				       </div>
