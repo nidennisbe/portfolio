@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-			<link rel="stylesheet" type="text/css" href="style/card_layout-grid.css"/>
+			<link rel="stylesheet" type="text/css" href="style/card_layout.css"/>
       <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
       <meta charset="utf-8">
       <title>Top ultrabooks 2017</title>
@@ -40,7 +40,6 @@
 											<button type="button" onclick="location.href='review-detail-gaming.php?id=<?php echo $row['id'];?>';">Read more</button>
 									</div>
 				       </div>
-
   </div>
 <?php }
 				while ($result && $row = mysqli_fetch_assoc($result))

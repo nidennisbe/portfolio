@@ -34,12 +34,21 @@
 <section>
       <div id="content">
             <?php do { ?>
-                <div id="img_div"><a href="review-detail-gaming.php?id=<?php echo $row['id'];?>">
-                    <p id="p-date-item">latest modified: <?php echo $row['date'];?></p>
-                    <img src="<?php echo $row['image'];?>" >
-                    <h3 id="h3-title-item"><?php echo $row['title'];?></h3>
-                    <p id="p-desc-item"><?php echo $row['description'];?><p>
-                </div>
+              <div class="wrapper">
+                          <div class="product-img">
+                              <img src="<?php echo $row['image'];?>" height="420" width="100%">
+                          </div>
+                          <div class="product-info">
+                              <div class="product-text">
+                                  <h1><?php echo $row['title'];?></h1>
+                                  <h2>latest modified: <?php echo $row['date'];?></h2>
+                                  <p><?php echo $row['description'];?> </p>
+                              </div>
+                              <div class="product-price-btn">
+                                  <button type="button" onclick="location.href='review-detail-gaming.php?id=<?php echo $row['id'];?>';">Read more</button>
+                              </div>
+                           </div>
+              </div>
              <?php } while ($row = mysqli_fetch_assoc($result)) ?>
 </section>
 <?php
