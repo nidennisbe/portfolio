@@ -28,7 +28,7 @@
 <?php do { ?>
 	<div class="wrapper">
 				    	<div class="product-img">
-				      		<img src="<?php echo $row['image'];?>" height="400" width="95%">
+				      		<img src="<?php echo $row['image'];?>" height="400" width="100%">
 				    	</div>
 				    	<div class="product-info">
 						      <div class="product-text">
