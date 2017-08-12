@@ -18,7 +18,7 @@
                  <li><a href="http://www.instagram.com" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
 
            </ul>
-                <h5 style=" font-family: sans-serif;font-size:20px;color:white;background:black;padding-top:30px;padding-bottom:30px;">&copy Copyright 2017 | IO Tech Review | All rights reserved</h5>
+                <h5 style=" font-family: sans-serif;font-size:20px;color:white;background:black;padding-top:30px;padding-bottom:130px;">&copy Copyright 2017 | IO Tech Review | All rights reserved</h5>
         </div>
     </div>
 </footer>
