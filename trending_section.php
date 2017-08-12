@@ -36,10 +36,11 @@
 							        <h2>latest modified: <?php echo $row['date'];?></h2>
 							        <p><?php echo $row['description'];?> </p>
 						      </div>
+									<div class="product-price-btn">
+											<button type="button" onclick="location.href='review-detail-gaming.php?id=<?php echo $row['id'];?>';">Read more</button>
+									</div>
 				       </div>
-								<div class="product-price-btn">
-										<button type="button" onclick="location.href='review-detail-gaming.php?id=<?php echo $row['id'];?>';">Read more</button>
-								</div>
+
   </div>
 <?php }
 				while ($result && $row = mysqli_fetch_assoc($result))
