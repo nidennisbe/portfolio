@@ -22,8 +22,9 @@
       <meta name="viewport" content="width=680px">
 </head>
 <body>
-  <div name="title" style="background-color:#89b724;height:100px;"><h1 style="color:white;padding:35px" ><strong>Top Ultrabooks</strong></h1></div>
+
 	<section>
+		  <div name="title" style="background-color:#89b724;height:100px;"><h1 style="color:white;padding:35px" ><strong>Trending</strong></h1></div>
 				<div id="content">
 
 							<?php do { ?>
