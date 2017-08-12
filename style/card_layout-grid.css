@@ -14,19 +14,19 @@ body {
   margin-bottom: 110px;
 }
 
-.product-img {
+.item-img {
   float: left;
   height: 420px;
   padding-left: 0;
   width: 45%;
 }
 
-.product-img img {
+.item-img img {
   border-radius: 15px 0 0 15px;
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
-.product-info {
+.item-info {
   float: left;
   height: 420px;
   width: 55%;
@@ -34,12 +34,12 @@ body {
   background-color: #ffffff;
 }
 
-.product-text {
+.item-text {
   height: 400px;
   width: 90%;
 }
 
-.product-text h1 {
+.item-text h1 {
   margin: 0 0 0 38px;
   padding-top: 25px;
   font-size: 34px;
@@ -72,7 +72,7 @@ body {
   overflow: hidden;
 }
 
-.product-price-btn {
+.btn-holder {
   height: 103px;
   width: 100%;
   margin-top: 17px;
@@ -80,7 +80,7 @@ body {
 }
 
 
-.product-price-btn button {
+.btn-holder button {
   float: right;
   display: inline-block;
   height: 50px;
@@ -100,7 +100,7 @@ body {
   outline: none;
 }
 
-.product-price-btn button:hover {
+.btn-holder button:hover {
   background-color: #99d7c8;
 }
 
@@ -118,20 +118,20 @@ body {
         margin-bottom: 250px;
     }
 
-    .product-img {
+    .item-img {
         float: left;
         height: 420px;
         padding-left: 0;
         width: 95%;
     }
 
-    .product-img img {
+    .item-img img {
         border-radius: 15px 0 0 0;
         height:450px;
         box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
     }
 
-    .product-info {
+    .item-info {
         margin: 0 auto;
         float: left;
         height: 420px;
@@ -140,12 +140,12 @@ body {
         background-color: #ffffff;
     }
 
-    .product-text {
+    .item-text {
         height: 300px;
         width: 90%;
     }
 
-    .product-text h2 {
+    .item-text h2 {
         margin: 0 0 47px 38px;
         font-size: 18px;
         font-family: 'Raleway', sans-serif;
@@ -155,7 +155,7 @@ body {
         letter-spacing: 0.2em;
     }
 
-    .product-text p {
+    .item-text p {
         height: 140px;
         margin: 0 0 0 38px;
         font-family: 'Playfair Display', serif;
