@@ -14,10 +14,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-			<link rel="stylesheet" type="text/css" href="style/card_layout.css"/>
+			
 			<link rel="stylesheet" type="text/css" href="style/card_layout-grid.css"/>
-      <link rel="stylesheet" type="text/css" href="style/stylesheet.css"/>
-      <link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
       <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
       <meta charset="utf-8">
       <title>Top ultrabooks 2017</title>
@@ -40,7 +38,6 @@
         <p><?php echo $row['description'];?> </p>
       </div>
       <div class="product-price-btn">
-        <p><span>78</span>$</p>
         <button type="button">Read more</button>
       </div>
     </div>
