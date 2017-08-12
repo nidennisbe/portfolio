@@ -88,6 +88,8 @@ header{
     .topnav {
         overflow: hidden;
         background-color: rgba(251, 251, 255, 0.43);
+        margin:0;
+        padding: 0;
     }
 
     .topnav a {
@@ -103,7 +105,7 @@ header{
     }
 
     .topnav a:hover {
-        color: #6998ba;
+        color: #fffcf9;
     }
 
     .topnav .icon {
