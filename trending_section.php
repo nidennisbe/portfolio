@@ -40,7 +40,7 @@
 				      </div>
 				    </div>
 						<div class="product-price-btn">
-							<button type="button"onclick="review-detail-gaming.php?id=<?php echo $row['id'];?>">Read more</button>
+							<button type="button" onclick="location.href='review-detail-gaming.php?id=<?php echo $row['id'];?>';">Read more</button>
 						</div>
   </div>
 					<?php }
