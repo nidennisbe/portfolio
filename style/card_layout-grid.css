@@ -1,6 +1,6 @@
 
 body {
-  background-color: #fdf1ec;
+  background-color: #e8e8e8;
 }
 
 .wrapper {
@@ -21,7 +21,7 @@ body {
 }
 
 .product-img img {
-  border-radius: 7px 0 0 7px;
+  border-radius: 15px 0 0 15px;
 }
 
 .product-info {
