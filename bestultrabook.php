@@ -1,6 +1,4 @@
 <?php
-
-//$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $server = "h40lg7qyub2umdvb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $username = "t8mvn41zc3dvlxhu";
 $password = "fhzr9pbe4y18yxlz";

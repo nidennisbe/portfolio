@@ -1,13 +1,9 @@
 <?php
-
-//$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $server = "h40lg7qyub2umdvb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $username = "t8mvn41zc3dvlxhu";
 $password = "fhzr9pbe4y18yxlz";
 $db = "k6zc9jmzecfdzsgk";
-
 $conn = mysqli_connect($server, $username, $password, $db);
-
 
 if ($conn->connect_error) {
     //If failed to connect
@@ -16,7 +12,6 @@ if ($conn->connect_error) {
 
 	$result = mysqli_query($conn, "SELECT * FROM tb_page_gaminglaptop");
 ?>
-
 <!doctype html>
 <html>
 <head>
@@ -30,15 +25,13 @@ if ($conn->connect_error) {
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <meta name="viewport" content="width=680px">
 </head>
-
 <body>
 <?php
-include "header.php";
-include "nav.php";
+      include "header.php";
+      include "nav.php";
 ?>
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#6998ba;padding:35px" ><strong>GAMING LAPTOPS REVIEW</strong></h1></div>
 <!-- ---------------------------START SECTION------------------------------------------------- -->
-
 <section>
       <div id="content">
             <?php do { ?>
@@ -51,10 +44,7 @@ include "nav.php";
         <?php } while ($row = mysqli_fetch_assoc($result)) ?>
       </section>
 <?php
-include "footer.php";
+      include "footer.php";
 ?>
 </body>
-
-
-
 </html>
