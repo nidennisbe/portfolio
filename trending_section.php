@@ -43,9 +43,11 @@
     </div>
   </div>
 
-<?php }if  ($result && $row = mysqli_fetch_assoc($result)!=0)
+<?php }
 					while ($result && $row = mysqli_fetch_assoc($result))
+					mysqli_free_result($result);
 					 ?>
+
         </section>
 </div>
 </body>
