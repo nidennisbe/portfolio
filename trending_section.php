@@ -9,7 +9,7 @@
             //If failed to connect
             die("Connection failed: " . $conn->connect_error);
         }
-        	$result = mysqli_query($conn, "SELECT * FROM tb_page_gaminglaptop");
+        	$result = mysqli_query($conn, "SELECT * FROM tb_page_gaminglaptop WHERE id IS NOT NULL;");
 ?>
 <!DOCTYPE html>
 <html>
