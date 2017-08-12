@@ -129,6 +129,7 @@ body {
     }
 
     .product-info {
+        margin: 0 auto;
         float: left;
         height: 420px;
         width: 100%;
