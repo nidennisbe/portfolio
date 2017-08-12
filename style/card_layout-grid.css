@@ -23,7 +23,7 @@ body {
 .product-img {
   float: left;
   height: 420px;
-  width: 30%;
+  width: 50%;
 }
 
 .product-img img {
@@ -40,7 +40,7 @@ body {
 
 .product-text {
   height: 300px;
-  width: 327px;
+  width: 50%;
 }
 
 .product-text h1 {

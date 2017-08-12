@@ -78,30 +78,6 @@
                        </ul>
               </div>
 </section>
-<section>
-            <h3 style="font-size:3em">TOP GAMING LAPTOPS</h3>
-            <center>
-            <table class="grid_table"width="300px" style="margin-bottom:2em;" cellspacing="1" >
-                    <tr>
-                        <td> <a  class="items_home"href="asus-laptops.html"> <img src="pic_home/topselling/ASUS-G550JX.png" width="240" height="166" alt="" /><center><h3><blink>Click to see review</blink></h3></td>
-                        <td> <a  class="items_home"href="asus-laptops.html"><img src="pic_home/topselling/ASUS-ROG-G751JL.png" width="240" height="166" alt="" /><center><h3>Click to see review</h3></td>
-                    </tr>
-
-                    <tr>
-                        <td> <a  class="items_home"href="msi-laptops.html"><img src="pic_home/topselling/msi-gt80-2qc.png" width="240" height="166" alt="" /><center><h3>Click to see review</h3></td>
-                        <td> <a  class="items_home"href="lenovo-laptops.html"> <img src="pic_home/topselling/lenovo-laptop-y50 15'inch-main.png" width="240" height="166" alt="" /><center><h3>Click to see review</h3></td>
-                    </tr>
-
-					          <tr>
-                         <td> <a  class="items_home"href="asus-laptops.html"> <img src="pic_home/topselling/asus-rog-g751.png" width="240" height="166" alt="" /><center><h3>Click to see review</h3></td>
-                         <td> <a  class="items_home"href="laptops.html"> <img src="pic_alienwares/aw154ktouch.png" width="240 height="166" alt="" /><center><h3>Click to see review</h3></td>
-                    </tr>
-
-					          <tr>
-                        <td> <a class="items_home" href="lenovo-laptops.php"> <img src="pic_lenovo/lenovo-y510p.png" width="240" height="166" alt="" /> <center><h3>Click to see review</h3></td>
-                        <td> <a class="items_home" href="msi-laptops.php"> <img src="pic_home/topselling/msi-gs70-2qd.png" width="240" height="166" alt="" /><center><h3>Click to see review</h3></td>
-                    </tr>
-</section>
 
 <?php
 include "trending_section.php";
