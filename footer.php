@@ -9,7 +9,7 @@
             <a class="element_footer" href="bestgaminglaptop.php">Gaming Laptops</a>
             <a class="element_footer" href="aboutus.php">Contact Us</a>
 
-          <ul class="social-icons"style="background:black;margin-bottom:120px;">
+          <ul class="social-icons"style="background:black;margin-bottom:-120px;">
                  <h1 style=" font-family: 'impact', sans-serif;">FOLLOW US</h1>
                  <li><a href="http://www.facebook.com" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
                  <li><a href="http://www.plus.google.com" class="social-icon"> <i class="fa fa-google"></i></a></li>
