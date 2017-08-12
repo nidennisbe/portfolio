@@ -16,7 +16,7 @@
 <head>
       <link rel="icon" href="pics/nidennis.jpg">
       <meta charset="utf-8">
-      <title>Best Gaming Laptops</title>
+      <title>Gaming Laptops</title>
       <link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
       <link rel="stylesheet" type="text/css" href="style/card_layout.css" />
       <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
