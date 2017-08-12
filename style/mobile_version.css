@@ -73,7 +73,9 @@ header{
     .header_wrapper{
         display:block;
     }
-    a.btn_sign_up:link{
+    a.btn_sign_up:link,
+    a.btn_sign_up:visited
+    {
         width:30%;margin:0 auto;
         margin-bottom: 15px;
     }
