@@ -43,7 +43,7 @@
     </div>
   </div>
 
-          <?php } while ($result && $row = mysqli_fetch_assoc($result)) ?>
+          <?php } while ($result && $row = mysqli_fetch_assoc($result)>0) ?>
         </section>
 </div>
 </body>
