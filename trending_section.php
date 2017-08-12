@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-			
+
 			<link rel="stylesheet" type="text/css" href="style/card_layout-grid.css"/>
       <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
       <meta charset="utf-8">
@@ -43,7 +43,7 @@
     </div>
   </div>
 
-          <?php } while ($row = mysqli_fetch_assoc($result)) ?>
+          <?php } while ($result && $row = mysqli_fetch_assoc($result)) ?>
         </section>
 </div>
 </body>
