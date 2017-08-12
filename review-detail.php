@@ -19,7 +19,6 @@
                   //If failed to connect
                 die("Connection failed: " . $conn->connect_error);
               }
-
           $id = $_GET['id'];
         	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook WHERE id=$id");
 ?>

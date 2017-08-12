@@ -1,29 +1,28 @@
 <?php
-$server = "h40lg7qyub2umdvb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$username = "t8mvn41zc3dvlxhu";
-$password = "fhzr9pbe4y18yxlz";
-$db = "k6zc9jmzecfdzsgk";
-$conn = mysqli_connect($server, $username, $password, $db);
+        $server = "h40lg7qyub2umdvb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+        $username = "t8mvn41zc3dvlxhu";
+        $password = "fhzr9pbe4y18yxlz";
+        $db = "k6zc9jmzecfdzsgk";
+        $conn = mysqli_connect($server, $username, $password, $db);
 
-if ($conn->connect_error) {
-    //If failed to connect
-    die("Connection failed: " . $conn->connect_error);
-}
-
-	$result = mysqli_query($conn, "SELECT * FROM tb_page_gaminglaptop");
+        if ($conn->connect_error) {
+            //If failed to connect
+            die("Connection failed: " . $conn->connect_error);
+        }
+        	$result = mysqli_query($conn, "SELECT * FROM tb_page_gaminglaptop");
 ?>
 <!doctype html>
 <html>
 <head>
-<link rel="icon" href="pics/nidennis.jpg">
-<meta charset="utf-8">
-<title>Best Gaming Laptops</title>
-<link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
-<link rel="stylesheet" type="text/css" href="style/card_layout.css" />
-<link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
-<link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<meta name="viewport" content="width=680px">
+      <link rel="icon" href="pics/nidennis.jpg">
+      <meta charset="utf-8">
+      <title>Best Gaming Laptops</title>
+      <link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
+      <link rel="stylesheet" type="text/css" href="style/card_layout.css" />
+      <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
+      <link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <meta name="viewport" content="width=680px">
 </head>
 <body>
 <?php
@@ -41,8 +40,8 @@ if ($conn->connect_error) {
                     <h3 id="h3-title-item"><?php echo $row['title'];?></h3>
                     <p id="p-desc-item"><?php echo $row['description'];?><p>
                 </div>
-        <?php } while ($row = mysqli_fetch_assoc($result)) ?>
-      </section>
+             <?php } while ($row = mysqli_fetch_assoc($result)) ?>
+</section>
 <?php
       include "footer.php";
 ?>
