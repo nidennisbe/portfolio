@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style/stylesheet.css"/>
     <link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
     <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
+    <link rel="stylesheet" type="text/css" href="style/card_layout-grid.css"/>
     <meta charset="utf-8">
     <title>Home</title>
     <meta name="viewport" content="width=680px">
