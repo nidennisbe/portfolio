@@ -75,6 +75,7 @@ header{
     }
     a.btn_sign_up:link{
         width:30%;margin:0 auto;
+        margin-bottom: 5px;
     }
     .btn_page_up {
         font-family: sans-serif;

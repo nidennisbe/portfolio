@@ -118,16 +118,11 @@ nav {
 header {
     /*background-image: url("https://edge.alluremedia.com.au/m/l/2017/06/iStock-612641754.jpg");*/
     /*background-size: cover;*/
-    /*background-color: #8bc1e9;*/
     background: #8bc1e9; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left, #8bc1e9, #b36de6); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, #7f51e6, #b36de6); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #7f51e6, #b36de6); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #8bc1e9, #8ddee9); /* Standard syntax (must be
-    margin-top: 0;
-    padding-top: 5px;
-    box-shadow: 0 0 1px #888888;
-    /*background-color: #FF7566;*/
+    background: linear-gradient(to right, #8bc1e9, #8ddee9); /* Standard syntax (must be*/
     height: 250px;
     position: relative;
     overflow: hidden;
@@ -212,11 +207,6 @@ a.element_nav:active {
     background-color: rgba(255, 13, 74, 0.99);
     opacity: .90;
     color: #fcffee;
-    /*font-weight: bold;*/
-    /*-o-transition: .2s;*/
-    /*-ms-transition: .2s;*/
-    /*-moz-transition: .2s;*/
-    /*-webkit-transition: .2s;*/
     transition: .2s;
 }
 
@@ -226,11 +216,6 @@ a.element_nav1:active {
     border-bottom: 2px solid yellowgreen;
     opacity: .90;
     color: #7fa829;
-    /*font-weight: bold;*/
-    /*-o-transition: .2s;*/
-    /*-ms-transition: .2s;*/
-    /*-moz-transition: .2s;*/
-    /*-webkit-transition: .2s;*/
     transition: .2s;
 }
 
@@ -240,11 +225,6 @@ a.element_nav2:active {
     border-bottom: 2px solid #2eb1b0;
     opacity: .90;
     color: #2eb1b0;
-    /*font-weight: bold;*/
-    /*-o-transition: .2s;*/
-    /*-ms-transition: .2s;*/
-    /*-moz-transition: .2s;*/
-    /*-webkit-transition: .2s;*/
     transition: .2s;
 }
 
@@ -254,11 +234,6 @@ a.element_nav3:active {
     border-bottom: 2px solid #e3d52e;
     opacity: .90;
     color: #f9c011;
-    /*font-weight: bold;*/
-    /*-o-transition: .2s;*/
-    /*-ms-transition: .2s;*/
-    /*-moz-transition: .2s;*/
-    /*-webkit-transition: .2s;*/
     transition: .2s;
 }
 
@@ -308,16 +283,10 @@ a:hover,
 a:active {
     opacity: 1.0;
     color: #fbfbff;
-    /*font-weight: bold;*/
-    /*-moz-transition: .2s;*/
-    /*-webkit-transition: .2s;*/
-    /*transition: .2s;*/
-    /*transition: .2s;*/
-    /*transform: scale(1.03, 1.05);*/
 }
 
 
-/*TYPPRAPHY ADJUSTMENTS*/
+/*Typography ADJUSTMENTS*/
 
 h1 {
     color: white;
@@ -448,11 +417,6 @@ body {
         opacity: 1
     }
 }
-
-
-/* On smaller screens, decrease text size */
-
-
 
 .fa {
     padding: 5px;
