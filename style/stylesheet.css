@@ -117,7 +117,7 @@ a.icon{
 footer {
     box-shadow: 0 3px 5px #888888;
     padding-top: 50px;
-    padding-bottom:50px;
+    padding-bottom:400px;
     height: auto;
     background-color: #8bc1e9;
     position: absolute;
@@ -155,7 +155,7 @@ section {
     padding-right: 48px;
     margin:0 auto;
     overflow: auto;
-    height: auto;
+    height: 400px;
     width: 100%;
     background-color: white;
     margin-bottom: -410px;
