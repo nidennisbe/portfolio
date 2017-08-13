@@ -7,7 +7,7 @@
             <a class="element_footer" href="index.php">Home</a>
             <a class="element_footer" href="bestultrabook.php">Ultrabooks</a>
             <a class="element_footer" href="bestgaminglaptop.php">Gaming Laptops</a>
-            <a class="element_footer" href="aboutus.php">Contact Us</a>
+            <a class="element_footer" href="aboutus.php">Contact</a>
 
           <ul class="social-icons">
                  <h1 style=" font-family: 'impact', sans-serif;">FOLLOW US</h1>
