@@ -54,16 +54,6 @@
         </div>
 </section>
 
-<section class="cateogires_section" style="height:auto;padding-bottom:600px">
-             <h1 class="title_goal">Browse review categories</h1>
-             <div class=""style="border:solid 1px white;background:black;display: inline-block;">
-                       <ul>
-                            <a href="bestultrabook.php"style="color:white">Ultrabooks</a>
-                            <a href="bestgaminglaptop.php"style="color:white">Gaming Laptops</a>
-                       </ul>
-              </div>
-</section>
-
 <?php
 include "trending_section.php";
 ?>
