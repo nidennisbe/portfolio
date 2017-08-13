@@ -10,11 +10,11 @@ a,
 
 a.element_footer
 {
-    float:none;
+    float:left;
     text-align:center;
     width:100%;
     font-size: 1.1em;
-    margin:0 auto;
+
 }
 
 
