@@ -161,11 +161,10 @@ section {
     margin:0 auto;
     overflow: auto;
     height: auto;
-    width: 95%;
+    width: 98%;
     background-color: white;
     padding-bottom: 370px;
-    /*box-shadow: 0 0 4px #888888;*/
-    background: rgba(220, 220, 220, 0.56);
+    box-shadow: 0 0 10px #888888;
 }
 
 a.btn_sign_up:link,
