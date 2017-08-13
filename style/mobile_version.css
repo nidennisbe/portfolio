@@ -153,7 +153,7 @@ header{
     footer {
         box-shadow: 0 0 5px #888888;
         padding-top: 50px;
-        height: 700px;
+        height: 750px;
         background-color: #8bc1e9;
         position: absolute;
         width: 100%;
@@ -183,7 +183,7 @@ header{
         height: auto;
         width: 100%;
         background-color: white;
-        padding-bottom:700px;
+        padding-bottom:750px;
         box-shadow: 0 0 1px #888888;
     }
 
