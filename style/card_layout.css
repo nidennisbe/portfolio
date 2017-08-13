@@ -64,6 +64,7 @@ body {
 .product-text p {
   height: 140px;
   margin: 0 0 0 38px;
+    padding:25px;
   font-family: 'Playfair Display', serif;
   color: #8d8d8d;
   line-height: 1.7em;
