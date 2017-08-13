@@ -174,5 +174,24 @@ body {
         margin: 5px;
         magin:0 auto;
     }
+    product-price-btn button {
+        float: right;
+        display: inline-block;
+        height: 70px;
+        width: 100%;
+        margin-bottom:50px;
+        box-sizing: border-box;
+        border: transparent;
+        border-radius: 0 0 15px 15px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #ffffff;
+        background-color: #45d3ca;
+        cursor: pointer;
+        outline: none;
+    }
 
 }
