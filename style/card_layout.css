@@ -156,7 +156,7 @@ body {
     }
 
     .product-text p {
-        height: 140px;
+        height: 160px;
         margin: 0 0 0 38px;
         font-family: 'Playfair Display', serif;
         color: #8d8d8d;
@@ -192,6 +192,12 @@ body {
         background-color: #45d3ca;
         cursor: pointer;
         outline: none;
+    }
+    .product-price-btn {
+        height: 150px;
+        width: 100%;
+        margin-top: 17px;
+        position: relative;
     }
 
 }
