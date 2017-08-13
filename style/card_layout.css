@@ -16,7 +16,6 @@ body {
 .wrapper{
   height: 420px;
   width: 1120px;
-  float: none;
     margin:0 auto;
   border-radius: 7px 7px 7px 7px;
   -webkit-box-shadow: 10px 14px 32px 12px rgba(0, 0, 0, 0.15);
