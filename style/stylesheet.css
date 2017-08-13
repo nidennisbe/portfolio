@@ -164,7 +164,7 @@ section {
     width: 100%;
     background-color: white;
     padding-bottom: 370px;
-    box-shadow: 0 0 1px #888888;
+    box-shadow: 0 0 10px #888888;
 }
 
 a.btn_sign_up:link,
