@@ -165,5 +165,14 @@ body {
         font-weight: lighter;
         overflow: hidden;
     }
+    .img-detail img {
+        overflow: hidden;
+        min-width: 200px;
+        max-width: 70%;
+        height:250px;
+        float: none;
+        margin: 5px;
+        magin:0 auto;
+    }
 
 }
