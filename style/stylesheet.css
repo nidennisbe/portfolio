@@ -174,12 +174,12 @@ a.btn_sign_up:visited {
     color:white;
     padding:10px;
     padding-top: 25px;
-    width:10%;
+    width:150px;
     height:80px;
 }
 
 a.btn_sign_up:hover {
-    background-color: #a9e9da;
+    background-color: #99d5c6;
     -o-transition: .2s;
     -ms-transition: .2s;
     -moz-transition: .2s;
