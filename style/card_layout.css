@@ -177,7 +177,7 @@ body {
     product-price-btn button {
         float: right;
         display: inline-block;
-        height: 70px;
+        height: 100px;
         width: 100%;
         margin: 0 0 0 0;
         box-sizing: border-box;
@@ -189,7 +189,7 @@ body {
         text-transform: uppercase;
         letter-spacing: 0.2em;
         color: #ffffff;
-        background-color: #45d3ca;
+        background-color: #3cacd3;
         cursor: pointer;
         outline: none;
     }
