@@ -173,6 +173,21 @@ header{
         width: 100%;
     }
 
+    section {
+        padding-top: 10px;
+        position: relative;
+        padding-left: 48px;
+        padding-right: 48px;
+        margin:0 auto;
+        overflow: auto;
+        height: auto;
+        width: 100%;
+        background-color: white;
+        margin-bottom: -410px;
+        padding-bottom: 550px;
+        box-shadow: 0 0 1px #888888;
+    }
+
 
 }
 
