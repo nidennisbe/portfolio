@@ -3,6 +3,16 @@ body {
   background-color: #e8e8e8;
 }
 
+.img-detail {
+    overflow: hidden;
+    min-width: 200px;
+    max-width: 50%;
+    height:250px;
+    float: none;
+    margin: 5px;
+    magin:0 auto;
+}
+
 .wrapper{
   height: 420px;
   width: 70%;
