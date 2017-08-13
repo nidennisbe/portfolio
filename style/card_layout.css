@@ -14,6 +14,16 @@ body {
   margin-bottom: 110px;
 }
 
+.wrapper hover{
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    transition: .2s;
+    transition: .2s;
+    transform: scale(1.03, 1.06);
+}
+
 .product-img {
   float: left;
   height: 420px;
