@@ -37,7 +37,7 @@
 <section
             <div id="content">
               <?php while ($row = mysqli_fetch_assoc($result)) { ?>
-                    <img src="<?php echo $row['image'];?>" >
+                    <img class="img-detail" src="<?php echo $row['image'];?>" >
                     <h3 id="h3-title-item"><?php echo $row['title'];?></h3>
                     <p id="p-desc-item"><?php echo $row['description'];?><p>
                     </div>
