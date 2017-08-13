@@ -330,10 +330,6 @@ a.items_home {
 /*SLIDE SHOW EFFECTS*/
 
 
-.active {
-    background-color: #f6e945;
-}
-
 
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}

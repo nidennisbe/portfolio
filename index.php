@@ -39,8 +39,9 @@
   <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
 </div>
 </div>
-          <button type="submit" class="button_1">More detail</button>
 <script src="javascript/slideshow.js"> </script>
+          <button type="submit" class="button_1">More detail</button>
+
 </section>
 
 <section id="boxes">
