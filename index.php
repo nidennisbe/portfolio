@@ -39,26 +39,24 @@
         <button type="submit" class="button_1">More detail</button>
 </section>
 <section id="boxes">
-        <div class="container">
+            <div class="container">
                    <h1 class="title_goal">Our missions</h1>
                    <div class="box">
-                   <a href="bestultrabook.php"><img src="./pics/goal/laptop_image.jpg"style="width:550px;height:auto"></a>
-                   <h3 class="text-goal-h3">Laptops review</h3>
-                   <p>Offer best articles about tech base on our experiences of using those devices</p>
-             </div>
-             <div class="box">
-                   <a href="bestgaminglaptop.php"><img src="./pics/goal/update.jpg"style="width:500px;height:auto"></a>
-                   <h3>Latest Review</h3>
-                   <p>Deliver the up-todate technology tending </p>
-             </div>
-        </div>
+                         <a href="bestultrabook.php"><img src="./pics/goal/laptop_image.jpg"style="width:550px;height:auto"></a>
+                         <h3 class="text-goal-h3">Laptops review</h3>
+                         <p>Offer best articles about tech base on our experiences of using those devices</p>
+                   </div>
+                   <div class="box">
+                         <a href="bestgaminglaptop.php"><img src="./pics/goal/update.jpg"style="width:500px;height:auto"></a>
+                         <h3>Latest Review</h3>
+                         <p>Deliver the up-todate technology tending </p>
+                   </div>
+           </div>
 </section>
-
 <?php
 include "trending_section.php";
 ?>
 
-<!-- ---------------------------END OF SECTION------------------------------------------------- -->
 <?php
       include "footer.php";
 ?>
