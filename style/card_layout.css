@@ -134,7 +134,7 @@ body {
     .product-info {
         margin: 0 auto;
         float: left;
-        height: 420px;
+        height: 450px;
         width: 100%;
         border-radius: 0 7px 10px 7px;
         background-color: #ffffff;
@@ -179,7 +179,7 @@ body {
         display: inline-block;
         height: 70px;
         width: 100%;
-        margin-bottom:50px;
+        margin: 0 0 0 0;
         box-sizing: border-box;
         border: transparent;
         border-radius: 0 0 15px 15px;
