@@ -28,9 +28,9 @@
 <center>
 <section class="slideshow-home" style="background-color:#8bc1e9;">
   <div class="w3-content w3-display-container">
-    <img class="mySlides" src="pics/slideshow/razerblade.png" style="width:1200px; height: auto;">
-    <img class="mySlides" src="pics/slideshow/dellxps.png" style="width:1200px; height: auto;">
-    <img class="mySlides" src="pics/slideshow/hp.png" style="width:1200px; height: auto;">
+    <img class="mySlides" src="pics/slideshow/razerblade.png" style="width:60%; height: auto;">
+    <img class="mySlides" src="pics/slideshow/dellxps.png" style="width:60%; height: auto;">
+    <img class="mySlides" src="pics/slideshow/hp.png" style="width:60%; height: auto;">
     <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
     <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
