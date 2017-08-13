@@ -41,7 +41,8 @@ button {
     border:solid 1px #45d3ca;
     padding-left: 20px;
     padding-right: 20px;
-    color: #ffffff;
+    color: #45d3ca;
+    background: white;
     font-size: 26px;
     font-family: "Birch Std",SansSerif;
 }
