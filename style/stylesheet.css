@@ -117,8 +117,7 @@ a.icon{
 footer {
     box-shadow: 0 3px 5px #888888;
     padding-top: 50px;
-    padding-bottom:400px;
-    height: auto;
+    height: 250px;
     background-color: #8bc1e9;
     position: absolute;
     width: 100%;
@@ -158,8 +157,7 @@ section {
     height: 400px;
     width: 100%;
     background-color: white;
-    margin-bottom: -410px;
-    padding-bottom: 550px;
+    padding-bottom: 250px;
     box-shadow: 0 0 1px #888888;
 }
 
