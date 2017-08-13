@@ -27,21 +27,20 @@
     </div>
 <center>
 <section class="slideshow-home" style="background-color:#8bc1e9;">
-  <div class="w3-content w3-display-container" style="max-width:800px">
-<img class="mySlides" src="pics/slideshow/macbook12.png" style="width:100%">
-<img class="mySlides" src="pics/slideshow/dellxps.png" style="width:100%">
-<img class="mySlides" src="pics/slideshow/hp.png" style="width:100%">
-<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-  <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-  <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-</div>
-</div>
-<script src="javascript/slideshow.js"> </script>
-          <button type="submit" class="button_1">More detail</button>
-
+            <div class="w3-content w3-display-container" style="max-width:800px">
+          <img class="mySlides" src="pics/goal/update.jpg" style="width:100%">
+          <img class="mySlides" src="pics/slideshow/dellxps.png" style="width:100%">
+          <img class="mySlides" src="pics/slideshow/hp.png" style="width:100%">
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          </div>
+          </div>
+          <script src="javascript/slideshow.js"> </script>
+                    <button type="submit" class="button_1">More detail</button>
 </section>
 
 <section id="boxes">
