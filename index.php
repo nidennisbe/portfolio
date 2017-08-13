@@ -8,6 +8,7 @@
     <meta charset="utf-8">
     <title>Home</title>
     <meta name="viewport" content="width=680px">
+    <script src="javascript/slideshow.js"> </script>
 </head>
 <body>
 <?php
@@ -27,28 +28,20 @@
     </div>
 <center>
 <section class="slideshow-home" style="background-color:#8bc1e9;">
-      <div class="slideshow-container" style="width=100%;padding-bottom:0">
-          <div class="mySlides fade">
-              <img src="pics/slideshow/hp.png" style="width:50%">
-              <div <a href="index.php"class="text">HP SPECTRE</div>
-          </div>
-          <div class="mySlides fade">
-              <img src="pics/slideshow/razerblade.png" style="width:50%">
-              <div class="text">RAZER BLADE 14</div>
-          </div>
-          <div class="mySlides fade">
-              <img src="pics/slideshow/dellxps.png" style="width:50%">
-              <div class="text">DELL XPS13</div>
-          </div>
-      </div>
-      <br>
-          <div style="text-align:center">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-          </div>
+  <div class="w3-content w3-display-container" style="max-width:800px">
+<img class="mySlides" src="img_nature_wide.jpg" style="width:100%">
+<img class="mySlides" src="img_fjords_wide.jpg" style="width:100%">
+<img class="mySlides" src="img_mountains_wide.jpg" style="width:100%">
+<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+  <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+  <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+</div>
+</div>
           <button type="submit" class="button_1">More detail</button>
-          <script src="javascript/slideshow.js"> </script>
+
 </section>
 
 <section id="boxes">
