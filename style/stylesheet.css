@@ -196,9 +196,8 @@ a.element_nav:hover,
 a.element_nav:active {
     box-shadow: 2px 4px 4px 1px #888888;
     border-bottom: 2px solid red;
-    background-color: rgba(255, 13, 74, 0.99);
+    color: rgba(255, 13, 74, 0.99);
     opacity: .90;
-    color: #fcffee;
     transition: .2s;
 }
 
