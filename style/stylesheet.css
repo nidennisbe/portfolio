@@ -334,7 +334,7 @@ a.items_home {
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
-
+.w3-button w3-black w3-display-left{float:left;}
 .fa {
     padding: 5px;
     font-size: 30px;
