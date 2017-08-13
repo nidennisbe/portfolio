@@ -8,7 +8,6 @@
     <meta charset="utf-8">
     <title>Home</title>
     <meta name="viewport" content="width=680px">
-    <script src="javascript/slideshow.js"> </script>
 </head>
 <body>
 <?php
@@ -41,7 +40,7 @@
 </div>
 </div>
           <button type="submit" class="button_1">More detail</button>
-
+<script src="javascript/slideshow.js"> </script>
 </section>
 
 <section id="boxes">
