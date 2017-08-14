@@ -172,6 +172,9 @@ header{
         float:left;
         width: 100%;
     }
+    #wrapper_nav {
+        margin:0;
+    }
 
     section {
         padding-top: 10px;
