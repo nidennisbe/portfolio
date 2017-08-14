@@ -60,9 +60,11 @@ hr {
     margin: 1em 0;
 }
 
+
+
 html, body {
-    height: 100%;
-    margin: 0;
+    position: relative;
+    height: auto;
     background-color: lightblue;
     /*background-size: cover;*/
     /*background-image: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg");*/
@@ -145,10 +147,6 @@ footer {
 .zoom {
     zoom: 67%;
 }
-
-
-
-
 
 section {
     padding-top: 10px;
