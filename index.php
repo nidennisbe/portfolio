@@ -47,7 +47,7 @@
                    <div class="box">
                          <a href="bestgaminglaptop.php"><img src="./pics/goal/update.jpg"style="width:500px;height:auto"></a>
                          <h3>Latest Review</h3>
-                         <p>Deliver the up-todate technology tending </p>
+                         <p>Deliver the up-to-date technology and accurate information </p>
                    </div>
            </div>
 </section>
