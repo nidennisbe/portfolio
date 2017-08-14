@@ -114,6 +114,7 @@ header{
 
     .topnav .icon {
         height:100px;
+        text-align: left;
         display: none;
     }
     .topnav a:not(:first-child) {display: none;}
