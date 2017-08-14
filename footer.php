@@ -2,7 +2,7 @@
 <html>
 <footer>
     <div id="wrapper_footer">
-<center>
+
             <a href="#top"style="color:white;">GO TO TOP</a>
             <a class="element_footer" href="index.php">Home</a>
             <a class="element_footer" href="ultrabook.php">Ultrabooks</a>
