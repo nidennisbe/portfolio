@@ -90,7 +90,6 @@ header{
 
     .topnav {
         overflow: hidden;
-        height:100px;
         background-color: rgb(255, 252, 249);
         margin:0;
         padding: 0;
@@ -114,6 +113,7 @@ header{
     }
 
     .topnav .icon {
+        height:100px;
         display: none;
     }
     .topnav a:not(:first-child) {display: none;}
