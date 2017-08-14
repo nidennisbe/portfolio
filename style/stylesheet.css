@@ -197,7 +197,7 @@ a.element_nav:visited {
 
 a.element_nav:hover,
 a.element_nav:active {
-    box-shadow: 2px 4px 4px 1px #888888;
+    /*box-shadow: 2px 4px 4px 1px #888888;*/
     border-bottom: 1px solid red;
     color: rgba(255, 13, 74, 0.99);
     opacity: .90;
@@ -206,7 +206,6 @@ a.element_nav:active {
 
 a.element_nav1:hover,
 a.element_nav1:active {
-    box-shadow: 2px 4px 4px 1px #888888;
     border-bottom: 1px solid yellowgreen;
     opacity: .90;
     color: #7fa829;
@@ -215,7 +214,6 @@ a.element_nav1:active {
 
 a.element_nav2:hover,
 a.element_nav2:active {
-    box-shadow: 2px 4px 4px 1px #888888;
     border-bottom: 1px solid #2eb1b0;
     opacity: .90;
     color: #2eb1b0;
@@ -224,7 +222,6 @@ a.element_nav2:active {
 
 a.element_nav3:hover,
 a.element_nav3:active {
-    box-shadow: 2px 4px 4px 1px #888888;
     border-bottom: 1px solid #e3d52e;
     opacity: .90;
     color: #f9c011;
