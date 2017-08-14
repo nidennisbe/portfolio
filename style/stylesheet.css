@@ -202,7 +202,7 @@ a.element_nav:active {
     color: rgba(255, 13, 74, 0.99);
     opacity: .90;
     transition: .2s;
-    background:#8BC1E9;
+    background:white;
 }
 
 a.element_nav1:hover,
@@ -212,7 +212,7 @@ a.element_nav1:active {
     opacity: .90;
     color: #7fa829;
     transition: .2s;
-    background:#8BC1E9;
+    background:white;
 }
 
 a.element_nav2:hover,
@@ -222,7 +222,7 @@ a.element_nav2:active {
     opacity: .90;
     color: #2eb1b0;
     transition: .2s;
-    background:#8BC1E9;
+    background:white;
 }
 
 a.element_nav3:hover,
@@ -232,7 +232,7 @@ a.element_nav3:active {
     opacity: .90;
     color: #f9c011;
     transition: .2s;
-    background:#8BC1E9;
+    background:white;
 }
 
 a.items_home:hover {
