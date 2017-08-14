@@ -35,7 +35,7 @@
         <?php while ($result && $row = mysqli_fetch_assoc($result)) {?>
         	<div class="wrapper">
         				    	<div class="product-img">
-        				      		<img src="<?php echo $row['image'];?>" height="420" width="100%">
+        				      		<img src="<?php echo $row['image'];?>" height="350" width="100%">
         				    	</div>
         				    	<div class="product-info">
         						      <div class="product-text">
