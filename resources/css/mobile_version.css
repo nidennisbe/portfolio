@@ -93,6 +93,7 @@ header{
         background-color: rgb(255, 252, 249);
         margin:0;
         padding: 0;
+        box-shadow: none;
     }
 
     .topnav a {
@@ -117,7 +118,6 @@ header{
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
         float: right;
-        display: block;
     }
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
@@ -174,7 +174,6 @@ header{
     }
     #wrapper_nav {
         margin:0;
-        box-shadow: none;
     }
 
     section {
