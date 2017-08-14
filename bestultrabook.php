@@ -17,10 +17,10 @@
       <link rel="icon" href="pics/nidennis.jpg">
       <meta charset="utf-8">
       <title>Ultrabooks</title>
-      <link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
-      <link rel="stylesheet" type="text/css" href="style/card_layout.css" />
-      <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
-      <link rel="stylesheet" type="text/css" href="style/text_effect.css"/>
+      <link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css" />
+      <link rel="stylesheet" type="text/css" href="resources/css/card_layout.css" />
+      <link rel="stylesheet" type="text/css" href="resources/css/mobile_version.css"/>
+      <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
       <meta name="viewport" content="width=680px">
 </head>

@@ -14,8 +14,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-			<link rel="stylesheet" type="text/css" href="style/card_layout.css"/>
-      <link rel="stylesheet" type="text/css" href="style/mobile_version.css"/>
+			<link rel="stylesheet" type="text/css" href="resources/css/card_layout.css"/>
+      <link rel="stylesheet" type="text/css" href="resources/css/mobile_version.css"/>
       <meta charset="utf-8">
       <title>Top ultrabooks 2017</title>
       <meta name="viewport" content="width=680px">

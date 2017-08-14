@@ -1,6 +1,0 @@
-{
-    "require": {
-        "voku/simple-mysqli": "5.*"
-    }
-	
-}
