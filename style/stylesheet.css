@@ -88,12 +88,11 @@ html, body {
 
 nav {
     box-shadow: 0 0 10px #888888;
-    background-color: rgb(255, 255, 255);
     height: auto;
     position: relative;
     overflow: hidden;
     margin-bottom: 5px;
-    background-color:black;
+    background-color:#50bfd3;
     top: 0;
     clear: both;
     width: 100%;
