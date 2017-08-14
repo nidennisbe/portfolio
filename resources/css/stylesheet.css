@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
 
-.w3-button w3-black w3-display-left{
+.w3-button w3-black w3-display-left button{
     float:left;
     left:0;
 }
-.w3-button w3-black w3-display-right{
+.w3-button w3-black w3-display-right button{
     float:right;
     right:0;
 }
