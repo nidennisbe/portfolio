@@ -301,7 +301,8 @@ h5 {
 
 p {
     color: #858585;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro';
+    line-height: 1.6;
     font-size: 18pt;
     text-align: center;
     margin: 10px;
