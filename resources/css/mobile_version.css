@@ -155,6 +155,7 @@ header{
     footer {
         box-shadow: 0 0 5px #888888;
         padding-top: 50px;
+        padding-left: 48px;
         height: 750px;
         background-color: #8bc1e9;
         position: absolute;
