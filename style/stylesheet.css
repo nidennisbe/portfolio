@@ -87,12 +87,12 @@ html, body {
 }
 
 nav {
-    box-shadow: 0 0 10px #888888;
+    box-shadow: 0 0 0 10px #888888;
     height: auto;
     position: relative;
     overflow: hidden;
     margin-bottom: 5px;
-    background-color:#50bfd3;
+    background-color:black;
     top: 0;
     clear: both;
     width: 100%;
