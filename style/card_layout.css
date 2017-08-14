@@ -14,7 +14,7 @@ body {
 }
 
 .wrapper{
-  height: 320px;
+  height: 350px;
   width: 1120px;
   float: left;
   border-radius: 7px 7px 7px 7px;
@@ -40,7 +40,7 @@ body {
 
 .product-info {
   float: left;
-  height: 320px;
+  height: 350px;
   width: 55%;
   border-radius: 0 7px 10px 7px;
   background-color: #ffffff;
