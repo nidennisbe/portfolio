@@ -90,6 +90,7 @@ header{
 
     .topnav {
         overflow: hidden;
+        height:100px;
         background-color: rgb(255, 252, 249);
         margin:0;
         padding: 0;
