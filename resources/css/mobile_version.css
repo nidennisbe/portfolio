@@ -170,7 +170,7 @@ header{
         margin-right: auto;
         position: relative;
         margin-top: 0;
-        float:left;
+        text-align:left;
         width: 100%;
     }
     #wrapper_nav {
