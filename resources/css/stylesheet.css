@@ -4,8 +4,8 @@
 
 .w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%);width:45px;height:150px}
 .w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);width:45px;height:150px}
-.w3-black,.w3-hover-black:hover{color:#fff!important;background-color: rgba(2, 2, 2, 0.17) !important}
-.w3-button:hover{color: rgba(151, 151, 151, 0.21) !important;background-color:#ccc!important}
+.w3-black,.w3-hover-black:hover{color:#fff!important;background-color: rgba(191, 191, 191, 0.17) !important}
+.w3-button:hover{color: rgba(151, 151, 151, 0.21) !important;background-color: rgba(204, 204, 204, 0.22) !important}
 
 .header_wrapper{
     width: 100%;
