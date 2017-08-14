@@ -37,7 +37,7 @@ input {
     font-family:sans-serif;
 }
 
-button {
+button.subscribe {
     margin-right: 20px;
     border-radius: 5px;
     height: 60px;

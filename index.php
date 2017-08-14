@@ -20,7 +20,7 @@
               <form class="sub_form">
                     <h1 id="subscribe_title" style=" font-family: 'arial', sans-serif;display:inline;color:grey;">Subscribe with us to get latest review</h1>
                     <input type="email" placeholder="Your email address">
-                    <button type="submit" class="button_1" style="font-family: 'arial', sans-serif">Subscribe</button>
+                    <button class="subscribe" type="submit" style="font-family: 'arial', sans-serif">Subscribe</button>
               </form>
       </div>
     </div>
@@ -34,7 +34,7 @@
         <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
         <script src="resources/js/slideshow.js"> </script>
-        <button type="submit" class="button_1">More detail</button>
+
 </section>
 <section id="boxes">
             <div class="container">
