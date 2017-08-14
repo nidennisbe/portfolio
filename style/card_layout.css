@@ -101,14 +101,15 @@ body {
   width: 100%;
   margin: 0 0 0 0;
   box-sizing: border-box;
-  
+
   border-radius: 0 0 15px 15px;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #ffffff;
+  color: #50bfd3;
+    background:white;
   border:solid 2px #50bfd3;
   cursor: pointer;
   outline: none;
@@ -202,15 +203,15 @@ body {
         width: 100%;
         margin: 0 0 0 0;
         box-sizing: border-box;
-        border: transparent;
         border-radius: 0 0 15px 15px;
         font-family: 'Raleway', sans-serif;
         font-size: 14px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 0.2em;
-        color: #ffffff;
-        background-color: #45d3ca;
+        color: #50bfd3;
+        background:white;
+        border:solid 2px #50bfd3;
         cursor: pointer;
         outline: none;
     }
