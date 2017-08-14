@@ -3,10 +3,9 @@ body {
   background-color: #e8e8e8;
 }
 
-.img-detail {
+.img-detail img{
     overflow: hidden;
-    min-width: 400px;
-    max-width: 80%;
+    width: 100%;
     height:350px;
     float: none;
     margin: 5px;
