@@ -53,7 +53,7 @@
            </div>
 </section>
 <?php
-include "trending_section.php";
+      include "trending_section.php";
 ?>
 
 <?php
