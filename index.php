@@ -14,7 +14,6 @@
       include "header.php";
       include "nav.php";
 ?>
-
 <center>
     <div class="subscribe_panel">
       <div class="subscribe_wrapper">
