@@ -64,7 +64,7 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: lightblue;
-    background-size: cover;
+    /*background-size: cover;*/
     /*background-image: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg");*/
 }
 
