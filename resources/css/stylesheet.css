@@ -4,9 +4,11 @@
 
 .w3-button w3-black w3-display-left{
     float:left;
+    left:0;
 }
 .w3-button w3-black w3-display-right{
     float:right;
+    right:0;
 }
 
 
