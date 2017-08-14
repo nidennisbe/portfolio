@@ -60,11 +60,14 @@ hr {
     margin: 1em 0;
 }
 
-
-
-html, body {
+body {
     position: relative;
     height: auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
     /*background-size: cover;*/
     /*background-image: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg");*/
 }
@@ -155,7 +158,7 @@ section {
     margin:0 auto;
     overflow: auto;
     height: auto;
-    width: 100%;
+    width: 98%;
     background-color: white;
     padding-bottom: 370px;
     box-shadow: 0 0 10px #888888;
@@ -302,8 +305,8 @@ p {
     color: #858585;
     font-family: 'Source Sans Pro';
     line-height: 1.6;
-    text-align: left;
     font-size: 18pt;
+    text-align: center;
     margin: 10px;
 }
 
