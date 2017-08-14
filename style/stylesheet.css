@@ -60,16 +60,12 @@ hr {
     margin: 1em 0;
 }
 
-body {
-    position: relative;
-    height: auto;
-}
-
 html, body {
     height: 100%;
     margin: 0;
-    /*background-size: cover;*/
-    /*background-image: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg");*/
+    background-color: #ffffff;
+    background-size: cover;
+    background-image: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg");
 }
 
 #wrapper_footer {
@@ -149,6 +145,13 @@ footer {
 .zoom {
     zoom: 67%;
 }
+
+body {
+    position: relative;
+    height: auto;
+}
+
+
 
 section {
     padding-top: 10px;
@@ -303,8 +306,7 @@ h5 {
 
 p {
     color: #858585;
-    font-family: 'Source Sans Pro';
-    line-height: 1.6;
+    font-family: 'Playfair Display', serif;
     font-size: 18pt;
     text-align: center;
     margin: 10px;
