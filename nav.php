@@ -2,7 +2,7 @@
 <html>
 
 <nav>
-    <div class="topnav" id="wrapper_nav">
+    <div class="topnav" id="wrapper_nav"style="padding:0;margin:0">
       <a href="javascript:void(0);" style="font-size:26px;" class="icon" onclick="myFunction()">&#9776;</a>
             <a class="element_nav"  href="index.php">Home</a>
             <a class="element_nav1" href="ultrabook.php">Ultrabooks</a>
