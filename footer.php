@@ -19,7 +19,6 @@
                 <h5 style=" font-family: sans-serif;font-size:20px;color:white">&copy Copyright 2017 | IO Tech Review | All rights reserved</h5>
            </ul>
         </div>
-        <div class="fb-page" data-href="https://www.facebook.com/NDBLivepiano/" data-tabs="timeline" data-height="100" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/NDBLivepiano/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/NDBLivepiano/">IO TECH</a></blockquote></div>
     </div>
 </footer>
 </html>
