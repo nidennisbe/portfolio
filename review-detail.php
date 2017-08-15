@@ -6,10 +6,25 @@
     <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/mobile_version.css"/>
     <meta charset="utf-8">
-    <?php include "resources/dbconnector/mysql-connector.php";?>
-    <?php $result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook WHERE id=$id");?>
     <title>Review detail</title>
     <meta name="viewport" content="width=680px">
+<?php
+            $server = "h40lg7qyub2umdvb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+            $username = "t8mvn41zc3dvlxhu";
+            $password = "fhzr9pbe4y18yxlz";
+            $db = "k6zc9jmzecfdzsgk";
+
+            $conn = mysqli_connect($server, $username, $password, $db);
+
+
+            if ($conn->connect_error) {
+                //If failed to connect
+                die("Connection failed: " . $conn->connect_error);
+            }
+
+              $id = $_GET['id'];
+            	$result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook WHERE id=$id");
+?>
 </head>
 <body>
 <?php
