@@ -1,7 +1,5 @@
 
 <html>
-<div id="fb-root"></div>
-<script src="resources/js/facebook-plugin.js"> </script>
 <footer>
     <div id="wrapper_footer">
 <center>
