@@ -239,6 +239,7 @@ a.items_home:hover {
 a.element_footer:link,
 a.element_footer:visited {
     color: white;
+    margin:0 auto;
     border: 0 solid #ffffff;
 
 }
