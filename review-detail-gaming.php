@@ -6,8 +6,10 @@
     <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/mobile_version.css"/>
     <meta charset="utf-8">
-    <?php include "resources/dbconnector/mysql-connector.php";?>
-    <?php  $result = mysqli_query($conn, "SELECT * FROM tb_page_gaminglaptop WHERE id=$id");?>
+<?php include "resources/dbconnector/mysql-connector.php";
+    $id = $_GET['id'];
+    $result = mysqli_query($conn, "SELECT * FROM tb_page_gaminglaptop WHERE id=$id");
+?>
     <title>Review detail</title>
     <meta name="viewport" content="width=680px">
 </head>
