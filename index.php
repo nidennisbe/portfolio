@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=680px">
 </head>
 <body>
-  <script src="facebook-login.js"></script>
+  <script src="resources/js/facebook-login.js"></script>
 
 <?php
       include "header.php";
