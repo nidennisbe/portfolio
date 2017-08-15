@@ -10,16 +10,20 @@
     <meta name="viewport" content="width=680px">
 </head>
 <body>
-  <script src="resources/js/facebook-login.js"></script>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1953263311555456";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <?php
       include "header.php";
       include "nav.php";
 ?>
-<fb:login-button
-scope="public_profile,email"
-onlogin="checkLoginState();">
-</fb:login-button>
+<div class="fb-page" data-href="https://www.facebook.com/Kampuchea-TechZone-1474958382785199/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Kampuchea-TechZone-1474958382785199/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Kampuchea-TechZone-1474958382785199/">Kampuchea TechZone</a></blockquote></div>
 <center>
     <div class="subscribe_panel">
       <div class="subscribe_wrapper">
