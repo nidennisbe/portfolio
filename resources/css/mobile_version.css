@@ -200,7 +200,20 @@ header{
         margin: 5px;
         magin:0 auto;
     }
-
+    .clip-text {
+        font-size: 3em;
+        font-weight: bold;
+        line-height: 1;
+        position: relative;
+        display: inline-block;
+        margin: .25em;
+        padding: .5em .75em;
+        text-align: center;
+        /* Color fallback */
+        color: #fff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
 }
 
