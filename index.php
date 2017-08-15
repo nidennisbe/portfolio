@@ -10,7 +10,6 @@
     <meta name="viewport" content="width=680px">
 </head>
 <body>
-  <script src="resources/js/facebook-plugin.js"> </script>
 <?php
       include "header.php";
       include "nav.php";
