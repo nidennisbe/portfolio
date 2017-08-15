@@ -16,11 +16,11 @@
       include "header.php";
       include "nav.php";
 ?>
-<center>
-  <fb:login-button
-  scope="public_profile,email"
-  onlogin="checkLoginState();">
+<fb:login-button
+scope="public_profile,email"
+onlogin="checkLoginState();">
 </fb:login-button>
+<center>
     <div class="subscribe_panel">
       <div class="subscribe_wrapper">
               <form class="sub_form">
