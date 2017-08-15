@@ -445,13 +445,13 @@ h1.title_goal{
 
 #h3-title-item {
    font-family: " source-sans-pro-n6","source-sans-pro",sans-serif;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 #content{
 width:80%;
     box-shadow: 5px 14px 32px 5px rgba(0, 0, 0, 0.15);
-
+padding:25px;
 }
 
 
