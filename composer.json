@@ -5,7 +5,8 @@
     "php",
     "mysqli",
     "simple db",
-    "DB"
+    "DB",
+
   ],
   "type": "library",
   "homepage": "https://github.com/voku/simple-mysqli",
@@ -40,11 +41,8 @@
       "voku\\db\\": "src/voku/db/"
     }
   }
-}
-
-
-{
-    "name": "facebook/graph-sdk",
+  
+  "name": "facebook/graph-sdk",
     "description": "Facebook SDK for PHP",
     "keywords": ["facebook", "sdk"],
     "type": "library",
@@ -85,3 +83,6 @@
         }
     }
 }
+
+
+
