@@ -25,7 +25,6 @@
 <section>
 		  <div name="title" style="background-color:#8BC1E9;height:100px;"><h1 style="color:white;padding:35px;font-size:1.5em;border-radius:4px;" ><strong>Trending</strong></h1></div>
       <br>
-				<div id="content">
 <?php while ($result && $row = mysqli_fetch_assoc($result)) {?>
 	<div class="wrapper">
 				    	<div class="product-img">
@@ -44,6 +43,5 @@
   </div>
 <?php } ?>
 </section>
-</div>
 </body>
 </html>
