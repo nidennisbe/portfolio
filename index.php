@@ -10,12 +10,18 @@
     <meta name="viewport" content="width=680px">
 </head>
 <body>
+  <script src="facebook-login.js"></script>
+
 <?php
       include "header.php";
       include "nav.php";
 ?>
 <center>
     <div class="subscribe_panel">
+      <fb:login-button
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+</fb:login-button>
       <div class="subscribe_wrapper">
               <form class="sub_form">
                     <h1 id="subscribe_title" style=" font-family: 'arial', sans-serif;display:inline;color:grey;">Subscribe with us to get latest review</h1>
