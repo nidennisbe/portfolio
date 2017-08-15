@@ -1,7 +1,7 @@
 
 <html>
+<script src="resources/js/facebook-plugin.js"> </script>
 <footer>
-  <script src="resources/js/facebook-plugin.js"> </script>
     <div id="wrapper_footer">
 <center>
             <a href="#top"style="color:white;">GO TO TOP</a>
