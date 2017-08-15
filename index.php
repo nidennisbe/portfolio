@@ -17,11 +17,11 @@
       include "nav.php";
 ?>
 <center>
-    <div class="subscribe_panel">
-      <fb:login-button
+  <fb:login-button
   scope="public_profile,email"
   onlogin="checkLoginState();">
 </fb:login-button>
+    <div class="subscribe_panel">
       <div class="subscribe_wrapper">
               <form class="sub_form">
                     <h1 id="subscribe_title" style=" font-family: 'arial', sans-serif;display:inline;color:grey;">Subscribe with us to get latest review</h1>
