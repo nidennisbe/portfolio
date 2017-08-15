@@ -4,7 +4,7 @@
 
 .w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%);width:45px;height:150px}
 .w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);width:45px;height:150px}
-.w3-black,.w3-hover-black:hover{color: rgba(11, 32, 39, 0.72) !important;background-color: rgb(18, 18, 18) !important}
+.w3-black,.w3-hover-black:hover{color: rgba(11, 32, 39, 0.38) !important;background-color: rgb(18, 18, 18) !important}
 .w3-button:hover{color: rgba(72, 165, 183, 0.69) !important;background-color: rgba(72, 165, 183, 0.77) !important}
 
 .header_wrapper{
