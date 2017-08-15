@@ -43,16 +43,15 @@ button.subscribe {
     height: 60px;
     width: 15%;
     margin: 10px;
-    border:solid 2px #45d3ca;
+    background: #45d3ca;
     padding-left: 20px;
     padding-right: 20px;
-    color: #45d3ca;
-    background: white;
+    color: white;
     font-size: 26px;
     font-family: "Birch Std",SansSerif;
 }
 
-button:hover {
+button.subscribe:hover {
     color: white;
     background: #45d3ca;
 }
