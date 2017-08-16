@@ -15,7 +15,7 @@
 ?>
 </head>
 <body>
-
+<!-- facebook comment -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -41,7 +41,7 @@
                     <p id="p-desc-item"><?php echo $row['description'];?><p>
                     </div>
               <?php } ?>
-              <div class="fb-comments" data-href="http://iotech.herokuapp.com/review-detail.php?id=1" data-numposts="4"></div>
+              <div class="fb-comments"style="float:left;" data-href="http://iotech.herokuapp.com/review-detail.php?id=1" data-numposts="4"></div>
 </section>
 <?php
       include "footer.php";
