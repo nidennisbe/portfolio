@@ -41,8 +41,7 @@
                     <p id="p-desc-item"><?php echo $row['description'];?><p>
                     </div>
               <?php } ?>
-              <br>
-              <div class="fb-comments"style="float:left;margin-left:12%;margin-top:10%" data-href="http://iotech.herokuapp.com/review-detail.php?id=1" data-numposts="4"></div>
+              <div class="fb-comments"style="float:left;margin-left:12%;margin-top:5%" data-href="http://iotech.herokuapp.com/review-detail.php?id=<?php echo $id?>" data-numposts="4"></div>
 </section>
 <?php
       include "footer.php";
