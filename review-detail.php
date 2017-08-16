@@ -15,6 +15,16 @@
 ?>
 </head>
 <body>
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1953263311555456";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
 <?php
       include "header.php";
       include "nav.php";
@@ -31,6 +41,7 @@
                     <p id="p-desc-item"><?php echo $row['description'];?><p>
                     </div>
               <?php } ?>
+              <div class="fb-comments" data-href="http://iotech.herokuapp.com/review-detail.php?id=1" data-numposts="4"></div>
 </section>
 <?php
       include "footer.php";
