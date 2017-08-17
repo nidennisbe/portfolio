@@ -25,7 +25,7 @@
             <div name="title" style="height:100px;width:300px;"><h1 style="color:#6998ba;padding:35px;font-size:28px" ><strong>Contact Us</strong></h1></div>
           <ul style="color:grey;font-size:18px">
                 <li>Develper: Nidennis Be</li><br/>
-                <li><img class="img" style=" border-radius: 50%;width:30%" src="resources/pics/nidennis.jpg"></li><br/>
+                <li><img class="img" style=" border-radius: 50%;width:30%" src="../resources/pics/nidennis.jpg"></li><br/>
                 <li>Address: 37 Symonds St Grafton, Auckland New Zealand</li><br/>
                 <li>Mobile:0220258124</li><br/>
                 <li>Email: nidennisbe@hotmail.com</li><br/>
