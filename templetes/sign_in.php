@@ -27,7 +27,7 @@
           <input type="email" placeholder="E-mail" name="email"name="email"/>
           <input type="password" placeholder="Password" name="password"name="password"/>
           <button>SIGN IN</button>
-  <a href="../templetes/ignup.php">Not having account? </a>
+  <a href="../templetes/signup.php">Not having account? </a>
       </form>
     </div>
 <script src="js/../index.js"></script>
