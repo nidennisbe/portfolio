@@ -15,7 +15,7 @@
     <div id="wrapper_footer">
 <center>
             <a href="#top"style="color:white;">GO TO TOP</a>
-            <a class="element_footer" href="index.php">Home</a>
+            <a class="element_footer" href="../index.php">Home</a>
             <a class="element_footer" href="../templetes/ultrabook.php">Ultrabooks</a>
             <a class="element_footer" href="../templetes/gaming-laptop.php">Gaming Laptops</a>
             <a class="element_footer" href="../templetes/about.php">Contact</a>

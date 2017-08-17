@@ -1,8 +1,8 @@
 
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="resources/css/mobile_version.css"/>
-    <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
+    <link rel="stylesheet" type="text/css" href="../resources/css/mobile_version.css"/>
+    <link rel="stylesheet" type="text/css" href="../resources/css/text_effect.css"/>
 </head>
 <header>
 
