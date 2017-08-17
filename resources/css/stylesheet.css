@@ -225,7 +225,7 @@ a.element_nav1:active {
     transition: .2s;
 }
 
-element_nav.active {
+.element_nav.active {
     border-bottom: 1px solid yellowgreen;
     opacity: .90;
     color: #7fa829;
