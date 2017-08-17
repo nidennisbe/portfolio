@@ -23,4 +23,15 @@ function myFunction() {
     }
 }
 </script>
+
+
+<script>
+       function toggleActiveState() {
+           this.classList.toggle('active');
+       }
+       var btns = document.querySelectorAll('.element_nav1');
+       [].forEach.call(btns, function(btn) {
+         btn.addEventListener('click', toggleActiveState, false);
+       });
+   </script>
 </html>

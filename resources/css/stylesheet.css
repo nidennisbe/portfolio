@@ -218,6 +218,13 @@ a.element_nav1:active {
     transition: .2s;
 }
 
+a.element_nav1.active {
+    border-bottom: 1px solid yellowgreen;
+    opacity: .90;
+    color: #7fa829;
+    transition: .2s;
+}
+
 a.element_nav2:hover,
 a.element_nav2:active {
     border-bottom: 1px solid #2eb1b0;
