@@ -16,9 +16,9 @@
 <center>
             <a href="#top"style="color:white;">GO TO TOP</a>
             <a class="element_footer" href="index.php">Home</a>
-            <a class="element_footer" href="ultrabook.php">Ultrabooks</a>
-            <a class="element_footer" href="gaming-laptop.php">Gaming Laptops</a>
-            <a class="element_footer" href="about.php">Contact</a>
+            <a class="element_footer" href="templetes/ultrabook.php">Ultrabooks</a>
+            <a class="element_footer" href="templetes/gaming-laptop.php">Gaming Laptops</a>
+            <a class="element_footer" href="templetes/about.php">Contact</a>
 
           <ul class="social-icons">
                  <h1 style=" font-family: 'impact', sans-serif;">FOLLOW US</h1>
