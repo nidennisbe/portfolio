@@ -1,17 +1,17 @@
 <!doctype html>
 <html>
 <head>
-      <link rel="icon" href="resources/pics/nidennis.jpg">
+      <link rel="icon" href="../resources/pics/nidennis.jpg">
       <meta charset="utf-8">
       <title>Aboutus</title>
-      <link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css" />
-      <link rel="stylesheet" type="text/css" href="resources/css/mobile_version.css"/>
+      <link rel="stylesheet" type="text/css" href="../resources/css/stylesheet.css" />
+      <link rel="stylesheet" type="text/css" href="../resources/css/mobile_version.css"/>
       <meta name="viewport" content="width=680px">
 </head>
 <body>
 <?php
-    include "templetes/header.php";
-    include "templetes/nav.php";
+    include "../templetes/header.php";
+    include "../templetes/nav.php";
 ?>
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#6998ba;padding:35px" ><strong>ABOUT US</strong></h1></div>
 <section>
