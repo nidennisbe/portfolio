@@ -1,15 +1,15 @@
 <!doctype html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css"/>
-    <link rel="stylesheet" type="text/css" href="resources/css/card_layout.css"/>
-    <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
-    <link rel="stylesheet" type="text/css" href="resources/css/mobile_version.css"/>
+    <link rel="stylesheet" type="text/css" href="../resources/css/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="../resources/css/card_layout.css"/>
+    <link rel="stylesheet" type="text/css" href="../resources/css/text_effect.css"/>
+    <link rel="stylesheet" type="text/css" href="../resources/css/mobile_version.css"/>
     <meta charset="utf-8">
     <title>Review detail</title>
     <meta name="viewport" content="width=680px">
 <?php
-    include "resources/dbconnector/mysql-connector.php";
+    include "../resources/dbconnector/mysql-connector.php";
     $id = $_GET['id'];
     $result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook WHERE id=$id");
 ?>
@@ -27,8 +27,8 @@
   }(document, 'script', 'facebook-jssdk'));</script>
 
 <?php
-      include "templetes/header.php";
-      include "templetes/nav.php";
+      include "../templetes/header.php";
+      include "../templetes/nav.php";
 ?>
 
 <center>
@@ -45,7 +45,7 @@
               <div class="fb-comments"style="float:left;margin-left:12%;margin-top:5%" data-href="http://iotech.herokuapp.com/review-detail.php?id=<?php echo $id?>" data-numposts="4"></div>
 </section>
 <?php
-      include "templetes/footer.php";
+      include "../templetes/footer.php";
 ?>
 </body>
 </html>
