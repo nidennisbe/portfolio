@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css"/>
-    <link rel="stylesheet" type="text/css" href="resources/css/card_layout.css"/>
-    <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
-    <link rel="stylesheet" type="text/css" href="resources/css/mobile_version.css"/>
+    <link rel="stylesheet" type="text/css" href="../resources/css/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="../resources/css/card_layout.css"/>
+    <link rel="stylesheet" type="text/css" href="../resources/css/text_effect.css"/>
+    <link rel="stylesheet" type="text/css" href="../resources/css/mobile_version.css"/>
     <meta charset="utf-8">
 <?php include "../resources/dbconnector/mysql-connector.php";
     $id = $_GET['id'];
