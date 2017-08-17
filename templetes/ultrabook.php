@@ -2,7 +2,7 @@
 <!doctype html>
 <html>
 <head>
-      <?php include "resources/dbconnector/mysql-connector.php";?>
+      <?php include "../resources/dbconnector/mysql-connector.php";?>
       <?php $result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook");?>
       <link rel="icon" href="pics/nidennis.jpg">
       <meta charset="utf-8">
