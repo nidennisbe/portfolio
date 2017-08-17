@@ -29,7 +29,7 @@ function myFunction() {
        function toggleActiveState() {
            this.classList.toggle('active');
        }
-       var btns = document.querySelectorAll('.element_nav1');
+       var btns = document.querySelectorAll('.element_nav');
        [].forEach.call(btns, function(btn) {
          btn.addEventListener('click', toggleActiveState, false);
        });
