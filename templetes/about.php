@@ -35,7 +35,7 @@
     </center>
 </section>
 <?php
-      include "templetes/footer.php";
+      include "../templetes/footer.php";
 ?>
 </body>
 </html>

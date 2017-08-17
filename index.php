@@ -11,8 +11,8 @@
 </head>
 <body>
 <?php
-      include "header.php";
-      include "nav.php";
+      include "templetes/header.php";
+      include "templetes/nav.php";
 ?>
 <center>
     <div class="subscribe_panel">
