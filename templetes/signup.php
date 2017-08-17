@@ -14,7 +14,7 @@
 </head>
 <!-- ---------------------------START BODY------------------------------------------------- -->
 <body >
-    <?php include "nav.php"?>
+    <?php include "templetes/nav.php"?>
 <section>
   <div class="form">
     <div class="container">

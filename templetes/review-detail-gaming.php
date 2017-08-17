@@ -20,13 +20,13 @@
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.async=true; 
+      js.async=true;
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1953263311555456";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 <?php
-      include "header.php";
-      include "nav.php";
+      include "templetes/header.php";
+      include "templetes/nav.php";
 ?>
 <center>
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px;float:left;"><h1 style="color:#6998ba;padding:35px" ><strong>Review Detail</strong></h1></div>
@@ -42,7 +42,7 @@
 </section>
 </section>
 <?php
-      include "footer.php";
+      include "templetes/footer.php";
 ?>
 </body>
 </html>

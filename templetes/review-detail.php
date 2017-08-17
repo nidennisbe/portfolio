@@ -21,14 +21,14 @@
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.async=true; 
+    js.async=true;
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1953263311555456";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
 <?php
-      include "header.php";
-      include "nav.php";
+      include "templetes/header.php";
+      include "templetes/nav.php";
 ?>
 
 <center>
@@ -45,7 +45,7 @@
               <div class="fb-comments"style="float:left;margin-left:12%;margin-top:5%" data-href="http://iotech.herokuapp.com/review-detail.php?id=<?php echo $id?>" data-numposts="4"></div>
 </section>
 <?php
-      include "footer.php";
+      include "templetes/footer.php";
 ?>
 </body>
 </html>

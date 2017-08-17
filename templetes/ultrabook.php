@@ -16,8 +16,8 @@
 </head>
 <body>
 <?php
-      include "header.php";
-      include "nav.php";
+      include "templetes/header.php";
+      include "templetes/nav.php";
 ?>
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#6998ba;padding:35px" ><strong>ULTRABOOKS REVIEW</strong></h1></div>
 <section>
@@ -33,7 +33,7 @@
                               <p><?php echo $row['description'];?> </p>
                           </div>
                           <div class="product-price-btn">
-                              <button type="button" onclick="location.href='review-detail.php?id=<?php echo $row['id'];?>';">Read more</button>
+                              <button type="button" onclick="location.href='templetes/review-detail.php?id=<?php echo $row['id'];?>';">Read more</button>
                           </div>
                        </div>
           </div>
@@ -41,7 +41,7 @@
                 ?>
 </section>
 <?php
-      include "footer.php";
+      include "templetes/footer.php";
 ?>
 </body>
 </html>
