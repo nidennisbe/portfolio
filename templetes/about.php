@@ -10,8 +10,8 @@
 </head>
 <body>
 <?php
-    include "header.php";
-    include "nav.php";
+    include "templetes/header.php";
+    include "templetes/nav.php";
 ?>
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#6998ba;padding:35px" ><strong>ABOUT US</strong></h1></div>
 <section>
@@ -31,12 +31,11 @@
                 <li>Email: nidennisbe@hotmail.com</li><br/>
           </ul>
             <br/>
-            <a href="index.html">Email Us</a> <br/>
             <a href="http://www.facebook.com/nidennisbe">Facebook Us</a>
     </center>
 </section>
 <?php
-      include "footer.php";
+      include "templetes/footer.php";
 ?>
 </body>
 </html>

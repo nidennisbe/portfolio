@@ -41,23 +41,23 @@
             <div class="container">
                    <h1 class="title_goal">Our missions</h1>
                    <div class="box">
-                         <a href="bestultrabook.php"><img src="./resources/pics/goal/laptop_image.jpg"style="width:550px;height:auto"></a>
+                         <a href="templetes/ultrabook.php"><img src="./resources/pics/goal/laptop_image.jpg"style="width:550px;height:auto"></a>
                          <h3 class="text-goal-h3">Laptops review</h3>
                          <p>Offer best articles about tech base on our experiences of using those devices</p>
                    </div>
                    <div class="box">
-                         <a href="bestgaminglaptop.php"><img src="./resources/pics/goal/update.jpg"style="width:500px;height:auto"></a>
+                         <a href="templetes/gaminglaptop.php"><img src="./resources/pics/goal/update.jpg"style="width:500px;height:auto"></a>
                          <h3>Latest Review</h3>
                          <p>Deliver up-to-date technology and accurate information </p>
                    </div>
            </div>
 </section>
 <?php
-      include "trending_section.php";
+      include "templetes/trending_section.php";
 ?>
 
 <?php
-      include "footer.php";
+      include "templetes/footer.php";
 ?>
 </body>
 </html>
