@@ -42,7 +42,7 @@
                     <p id="p-desc-item"><?php echo $row['description'];?><p>
                     </div>
               <?php } ?>
-              <div class="fb-comments"style="float:left;margin-left:12%;margin-top:5%; box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);" data-href="http://iotech.herokuapp.com/review-detail.php?id=<?php echo $id?>" data-numposts="4"></div>
+              <div class="fb-comments"style="float:left;margin-left:10%;margin-top:5%; box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);" data-href="http://iotech.herokuapp.com/review-detail.php?id=<?php echo $id?>" data-numposts="4"></div>
 </section>
 <?php
       include "../templetes/footer.php";
