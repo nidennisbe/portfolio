@@ -85,8 +85,6 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: #ffffff;
-    background-size: cover;
-    background-image: url("../pics/bg-footer.jpg");
 }
 
 #wrapper_footer {
