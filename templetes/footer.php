@@ -10,9 +10,9 @@
      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1953263311555456";
      fjs.parentNode.insertBefore(js, fjs);
  }(document, 'script', 'facebook-jssdk'));</script>
+ <img src="../resources/pics/bg-footer.jpg"style="height:70px;"></img>
 </body>
 <footer>
-  <img src="../resources/pics/bg-footer.jpg"style="height:70px;"></img>
     <div id="wrapper_footer">
 
 <center>
