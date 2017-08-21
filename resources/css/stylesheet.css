@@ -425,7 +425,7 @@ ul li {
 
 
 #boxes{
-    
+    padding-top: 4.5%;
     overflow:auto;
     height: auto;
 }
