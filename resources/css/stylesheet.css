@@ -428,14 +428,15 @@ ul li {
     padding-top: 4.5%;
     overflow:auto;
     height: auto;
+    box-shadow: 5px 14px 32px 5px rgba(0, 0, 0, 0.15);
 }
 
 #boxes .box{
     float:left;
     text-align: center;
     width:50%;
-    
-    box-shadow: 5px 14px 32px 5px rgba(0, 0, 0, 0.15);
+    padding:10px;
+
 }
 
 #boxes .box img{
