@@ -35,6 +35,7 @@
               <?php while ($row = mysqli_fetch_assoc($result)) { ?>
                     <img class="img-detail"src="<?php echo $row['image'];?>" >
                     <h3 id="h3-title-item"><?php echo $row['title'];?></h3>
+                    <hr>
                     <p id="p-desc-item"><?php echo $row['description'];?><p>
                     </div>
               <?php }  ?>
