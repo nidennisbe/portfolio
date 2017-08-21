@@ -2,10 +2,27 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
 
-.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%);width:45px;height:150px}
-.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);width:45px;height:150px}
-.w3-black,.w3-hover-black:hover{color: rgba(11, 32, 39, 0.38) !important;background-color: rgba(18, 18, 18, 0.34) !important}
-.w3-button:hover{color: rgba(72, 165, 183, 0.69) !important;background-color: rgba(72, 165, 183, 0.77) !important}
+.w3-display-left{
+    position:absolute;top:50%;left:0%;
+    transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%);
+    width:45px;height:150px
+}
+
+.w3-display-right{
+    position:absolute;top:50%;right:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(0%,-50%);width:45px;height:150px
+}
+
+.w3-black,.w3-hover-black:hover{
+    color: rgba(11, 32, 39, 0.38);
+    background-color: rgba(18, 18, 18, 0.34)
+}
+
+.w3-button:hover{
+    color: rgba(72, 165, 183, 0.69);
+    background-color: rgba(72, 165, 183, 0.77)
+}
 
 .header_wrapper{
     width: 100%;
