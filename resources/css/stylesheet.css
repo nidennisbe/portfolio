@@ -86,7 +86,7 @@ html, body {
     margin: 0;
     background-color: #ffffff;
     background-size: cover;
-    background-image: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg");
+    background-image: url("../pics/bg-footer.jpg");
 }
 
 #wrapper_footer {
