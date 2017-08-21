@@ -85,6 +85,8 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: #ffffff;
+    background-size: cover;
+    background-image: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg");
 }
 
 #wrapper_footer {
@@ -179,8 +181,10 @@ section {
     margin:0 auto;
     overflow: auto;
     height: auto;
-    width: 80%;
+    width: 100%;
     background-color: #fefefe;
+    /*background-image: url("../pics/bg.jpg");*/
+    /*background-repeat: no-repeat;*/
     padding-bottom: 370px;
     box-shadow: 0 0 10px #888888;
 }
