@@ -433,13 +433,13 @@ ul li {
 #boxes .box{
     float:left;
     text-align: center;
-    width:500px;
+    width:300px;
     padding:10px;
     box-shadow: 5px 14px 32px 5px rgba(0, 0, 0, 0.15);
 }
 
 #boxes .box img{
-    width:400px;
+    width:500px;
 }
 
 h1.title_goal{
