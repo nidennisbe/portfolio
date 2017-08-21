@@ -82,7 +82,7 @@ hr {
 }
 
 html, body {
-    height: 80%;
+    height: 100%;
     margin: 0;
     background-color: #ffffff;
     background-size: cover;
@@ -181,10 +181,8 @@ section {
     margin:0 auto;
     overflow: auto;
     height: auto;
-    width: 100%;
+    width: 80%;
     background-color: #fefefe;
-    /*background-image: url("../pics/bg.jpg");*/
-    /*background-repeat: no-repeat;*/
     padding-bottom: 370px;
     box-shadow: 0 0 10px #888888;
 }
