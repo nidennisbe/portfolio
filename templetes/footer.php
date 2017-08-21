@@ -12,8 +12,9 @@
  }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 <footer>
+  <img src="../resources/pics/bg-footer.jpg"style="height:70px;"></img>
     <div id="wrapper_footer">
-      <img src="../resources/pics/bg-footer.jpg"style="height:70px;"></img>
+
 <center>
             <a href="#top"style="color:white;">GO TO TOP</a>
             <a class="element_footer" href="../index.php">Home</a>
