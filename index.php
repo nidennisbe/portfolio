@@ -25,7 +25,7 @@
       </div>
     </div>
 <center>
-<section class="slideshow-home" style="background-color:#F9A05C;">
+<section class="slideshow-home" style="background-color:white;">
   <center>
   <div class="w3-content w3-display-container" style="margin:0 auto;">
         <img class="mySlides" src="resources/pics/slideshow/razerblade.png" style="width:550px; height: auto;">
