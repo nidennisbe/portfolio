@@ -36,8 +36,9 @@
 <section>
             <div id="content">
               <?php while ($row = mysqli_fetch_assoc($result))  { ?>
+                <h3 id="h3-title-item"><?php echo $row['title'];?></h3> <p>LAST UPDATED: <?php echo $row['date'];?></p>
                     <img class="img-detail" src="<?php echo $row['image'];?>" >
-                    <h3 id="h3-title-item"><?php echo $row['title'];?></h3> <p>LAST UPDATED: <?php echo $row['date'];?></p>
+
                     <hr>
                     <p id="p-desc-item"><?php echo $row['description'];?><p>
                     </div>
