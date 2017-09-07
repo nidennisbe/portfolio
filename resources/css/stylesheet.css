@@ -60,7 +60,7 @@ button.subscribe {
     height: 60px;
     width: 15%;
     margin: 10px;
-    background: #45d3ca;
+    background: #E95589;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
@@ -70,7 +70,7 @@ button.subscribe {
 
 button.subscribe:hover {
     color: white;
-    background: #45d3ca;
+    background: #E95589;
 }
 
 hr {
@@ -191,7 +191,7 @@ section {
 
 a.btn_sign_up:link,
 a.btn_sign_up:visited {
-    background-color: #45d3ca;
+    background-color: #E95589;
     float:right;margin-right:150px;
     color:white;
     padding:10px;
@@ -201,7 +201,7 @@ a.btn_sign_up:visited {
 }
 
 a.btn_sign_up:hover {
-    background-color: #99d5c6;
+    background-color: #E95589;
     -o-transition: .2s;
     -ms-transition: .2s;
     -moz-transition: .2s;
@@ -215,7 +215,7 @@ a.element_nav :link,
 a.element_nav:visited {
     color: #fffcf9;
     border: 1px solid #ffffff;
-    background:#8BC1E9;
+    background:#E95589;
 }
 
 
