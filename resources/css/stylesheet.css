@@ -128,7 +128,7 @@ header {
     background: -webkit-linear-gradient(left, #8bc1e9, #b36de6); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, #7f51e6, #b36de6); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #7f51e6, #b36de6); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #7d62e9, #9591e9); /* Standard syntax (must be*/
+    background: linear-gradient(to right, #e9c942, #e9c045); /* Standard syntax (must be*/
     height: 250px;
     position: relative;
     overflow: hidden;
