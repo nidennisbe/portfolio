@@ -13,7 +13,7 @@
     include "../templetes/header.php";
     include "../templetes/nav.php";
 ?>
-<div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#6998ba;padding:35px" ><strong>ABOUT US</strong></h1></div>
+<div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#FF5077;padding:35px" ><strong>ABOUT US</strong></h1></div>
 <section>
     <center>
             <p>&nbsp;</p>
