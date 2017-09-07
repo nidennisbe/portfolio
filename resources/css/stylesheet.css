@@ -128,7 +128,7 @@ header {
     background: -webkit-linear-gradient(left, #8bc1e9, #b36de6); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, #7f51e6, #b36de6); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #7f51e6, #b36de6); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #f9a05c, #e95589); /* Standard syntax (must be*/
+    background: linear-gradient(to right, #f9a05c, #ff5077); /* Standard syntax (must be*/
     height: 250px;
     position: relative;
     overflow: hidden;
@@ -144,7 +144,7 @@ footer {
     padding-top: 50px;
     padding-bottom:50px;
     height: 370px;
-    background: linear-gradient(to right, #f9a05c, #e95589); /* Standard syntax (must be*/
+    background: linear-gradient(to right, #f9a05c, #ff5077); /* Standard syntax (must be*/
     position: absolute;
     width: 100%;
     right: 0;
@@ -191,7 +191,7 @@ section {
 
 a.btn_sign_up:link,
 a.btn_sign_up:visited {
-    background-color: #E95589;
+    background-color: #ff5077;
     float:right;margin-right:150px;
     color:white;
     padding:10px;
@@ -201,7 +201,7 @@ a.btn_sign_up:visited {
 }
 
 a.btn_sign_up:hover {
-    background-color: #E95589;
+    background-color: #ff5077;
     -o-transition: .2s;
     -ms-transition: .2s;
     -moz-transition: .2s;
