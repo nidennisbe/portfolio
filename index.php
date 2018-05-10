@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php
-      include "templetes/header.php";
+    
       include "templetes/nav.php";
 ?>
 
