@@ -13,7 +13,7 @@
 <body>
 
 <section>
-		  <div name="title" style="background-color:#FF5077;height:100px;"><h1 style="color:white;padding:35px;font-size:1.5em;border-radius:4px;" ><strong>Trending</strong></h1></div>
+		  <div name="title" style="background-color:#FF5077;height:100px;"><h1 style="color:white;padding:35px;font-size:1.5em;border-radius:4px;" ><strong>Career History</strong></h1></div>
       <br>
 <?php while ($result && $row = mysqli_fetch_assoc($result)) {?>
 	<div class="wrapper">
