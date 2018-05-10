@@ -206,7 +206,7 @@ section {
 
 a.btn_sign_up:link,
 a.btn_sign_up:visited {
-    background-color: #ff5077;
+    background-color: #FF4823;
     float:right;margin-right:150px;
     color:white;
     padding:10px;
@@ -216,7 +216,7 @@ a.btn_sign_up:visited {
 }
 
 a.btn_sign_up:hover {
-    background-color: #ff5077;
+    background-color: #FF4823;
     -o-transition: .2s;
     -ms-transition: .2s;
     -moz-transition: .2s;
@@ -263,7 +263,7 @@ a.element_nav3:hover,
 a.element_nav3:active {
     border-bottom: 1px solid #e3d52e;
     opacity: .90;
-    color: #f9c011;
+    color: #FF4823;
     transition: .2s;
 }
 
