@@ -29,7 +29,7 @@
                           <div class="product-text">
                               <h1><?php echo $row['title'];?></h1>
                               <h2>Platform: <?php echo $row['platform'];?></h2>
-                              <p> style="text-align:justify"><?php echo $row['description'];?> </p>
+                              <p style="text-align:justify"><?php echo $row['description'];?> </p>
                           </div>
                           <div class="product-price-btn">
                               <button type="button" onclick="location.href='../templetes/review-detail.php?id=<?php echo $row['id'];?>';">Read more</button>
