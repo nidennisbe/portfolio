@@ -31,7 +31,7 @@
                               <h2>Platform: <?php echo $row['platform'];?></h2>
                               <p><?php echo $row['description'];?> </p>
                           </div>
-                          <div class="product-price-btn">
+                          <div class="golden-btn">
                               <button type="button" onclick="location.href='../templetes/review-detail.php?id=<?php echo $row['id'];?>';">Read more</button>
                           </div>
                        </div>
