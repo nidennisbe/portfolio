@@ -159,7 +159,7 @@ footer {
     padding-top: 50px;
     padding-bottom:50px;
     height: 370px;
-    background: linear-gradient(to right, #E6411F, #FF4823); /* Standard syntax (must be*/
+    background: linear-gradient(to right,black, black); /* Standard syntax (must be*/
     position: absolute;
     width: 100%;
     right: 0;
