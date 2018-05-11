@@ -19,7 +19,7 @@
       include "nav.php";
 ?>
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:black;padding:35px" ><strong>Mobiles</strong></h1></div>
-<section style="background-image:url("./resources/pics/classy-bg.jpeg")>
+<section style="background-image:url("../resources/pics/classy-bg.jpeg")>
         <?php while ($result && $row = mysqli_fetch_assoc($result)) {?>
           <div class="wrapper">
                       <div class="product-img">
