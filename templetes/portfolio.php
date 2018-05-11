@@ -19,7 +19,7 @@
       include "nav.php";
 ?>
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:black;padding:35px" ><strong>Mobiles</strong></h1></div>
-<section style="background-image:url("../resources/pics/classy-bg.jpeg")>
+<section>
         <?php while ($result && $row = mysqli_fetch_assoc($result)) {?>
           <div class="wrapper">
                       <div class="product-img">
@@ -31,7 +31,7 @@
                               <h2>Platform: <?php echo $row['platform'];?></h2>
                               <p><?php echo $row['description'];?> </p>
                           </div>
-                          <div class="golden-btn">
+                          <div class="product-price-btn">
                               <button type="button" onclick="location.href='../templetes/review-detail.php?id=<?php echo $row['id'];?>';">Read more</button>
                           </div>
                        </div>
