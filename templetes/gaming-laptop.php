@@ -22,10 +22,10 @@
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#FF5077;padding:35px" ><strong>TOP SKILLS</strong></h1></div>
 <section>
   <ul id="skill">
-    <li><span class="bar graphic-design"></span><h3>Graphic Design</h3></li>
-    <li><span class="bar html-css"></span><h3>Html // Css</h3></li>
-    <li><span class="bar jquery"></span><h3>jQuery // MoTools</h3></li>
-    <li><span class="bar wordpress"></span><h3>Wordpress</h3></li>
+    <li><span class="bar graphic-design"></span><h3>Native Android</h3></li>
+    <li><span class="bar html-css"></span><h3>Java</h3></li>
+    <li><span class="bar jquery"></span><h3>User Interface Design</h3></li>
+    <li><span class="bar wordpress"></span><h3>Javascript</h3></li>
   </ul>
 </section>
 <?php

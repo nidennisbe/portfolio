@@ -18,12 +18,12 @@
             <div class="container">
 
                    <div class="box">
-                      <h1 class="title_goal">HELLO, I'M NIDENNIS BE</h1>
+                      <h1 class="title_goal">HELLO, I'M NIDENNIS</h1>
                          <a href="templetes/ultrabook.php"><img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
                            <h3 class="title_goal">Mobile Developer | UI Designer</h3>
                          <ul class="social-icons">
 
-                                <li><a href="http://www.facebook.com" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/nidennisbe" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
                                 <li><a href="http://www.plus.google.com" class="social-icon"> <i class="fa fa-google"></i></a></li>
                                 <li><a href="http://www.twitter.com" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
                                 <li><a href="http://www.youtube.com" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
@@ -38,7 +38,6 @@
            </div>
 </section>
 <?php
-      include "templetes/trending_section.php";
         include "templetes/trending_section.php";
 ?>
 
