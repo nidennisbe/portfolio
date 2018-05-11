@@ -391,7 +391,7 @@ ul li {
     display: inline-block;
     list-style: none;
     padding: 10px;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 /* Style for socialmedia icons */
