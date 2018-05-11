@@ -18,7 +18,7 @@
             <div class="container">
 
                    <div class="box">
-                      <h1 class="title_goal">NIDENNIS BE</h1>
+                      <h1 class="title_goal">HELLO, I'M NIDENNIS BE</h1>
                          <a href="templetes/ultrabook.php"><img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
                            <h3 class="title_goal">Mobile Developer | UI Designer</h3>
                          <ul class="social-icons">

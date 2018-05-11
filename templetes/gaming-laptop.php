@@ -18,7 +18,7 @@
 <?php
       include "nav.php";
 ?>
-<div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#FF5077;padding:35px" ><strong>GAMING LAPTOPS REVIEW</strong></h1></div>
+<div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#FF5077;padding:35px" ><strong>TOP SKILLS</strong></h1></div>
 <section>
         <?php while ($result && $row = mysqli_fetch_assoc($result)) {?>
         	<div class="wrapper">
