@@ -3,7 +3,7 @@
 <head>
       <link rel="icon" href="../resources/pics/nidennis.jpg">
       <meta charset="utf-8">
-      <title>Aboutus</title>
+      <title>activity-images</title>
       <link rel="stylesheet" type="text/css" href="../resources/css/stylesheet.css" />
       <link rel="stylesheet" type="text/css" href="../resources/css/mobile_version.css"/>
       <meta name="viewport" content="width=680px">

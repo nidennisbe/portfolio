@@ -6,7 +6,7 @@
       <?php $result = mysqli_query($conn, "SELECT * FROM tb_page_gaminglaptop");?>
       <link rel="icon" href="pics/nidennis.jpg">
       <meta charset="utf-8">
-      <title>Gaming Laptops</title>
+      <title>skills</title>
       <link rel="stylesheet" type="text/css" href="../resources/css/stylesheet.css" />
       <link rel="stylesheet" type="text/css" href="../resources/css/card_layout.css" />
       <link rel="stylesheet" type="text/css" href="../resources/css/mobile_version.css"/>

@@ -6,7 +6,7 @@
       <?php $result = mysqli_query($conn, "SELECT * FROM tb_portfolio");?>
       <link rel="icon" href="pics/nidennis.jpg">
       <meta charset="utf-8">
-      <title>Ultrabooks</title>
+      <title>Portfolio</title>
       <link rel="stylesheet" type="text/css" href="../resources/css/stylesheet.css" />
       <link rel="stylesheet" type="text/css" href="../resources/css/card_layout.css" />
       <link rel="stylesheet" type="text/css" href="../resources/css/mobile_version.css"/>
