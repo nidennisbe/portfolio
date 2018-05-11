@@ -9,12 +9,12 @@
     <title>Home</title>
     <meta name="viewport" content="width=680px">
 </head>
-<body>
+<body >
 <?php
       include "templetes/nav.php";
 ?>
 
-<section id="boxes">
+<section id="boxes" class="header_wrapper " style="background: linear-gradient(to right, #ebebeb, #ffffff)">
             <div class="container">
 
                    <div class="box">
