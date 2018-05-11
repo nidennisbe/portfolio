@@ -11,7 +11,7 @@
 <?php
     include "../resources/dbconnector/mysql-connector.php";
     $id = $_GET['id'];
-    $result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook WHERE id=$id");
+    $result = mysqli_query($conn, "SELECT * FROM tb_portfolio WHERE id=$id");
 ?>
 </head>
 <body>
@@ -27,17 +27,16 @@
   }(document, 'script', 'facebook-jssdk'));</script>
 
 <?php
-      include "../templetes/header.php";
       include "../templetes/nav.php";
 ?>
 
 <center>
-<div name="title" style="border-bottom: solid 1px #6998ba;height:100px;float:left;"><h1 style="color:#FF5077;padding:35px" ><strong>Review Detail</strong></h1></div>
+<div name="title" style="border-bottom: solid 1px #6998ba;height:100px;float:left;"><h1 style="color:#FF5077;padding:35px" ><strong>Detail</strong></h1></div>
 <section>
             <div id="content">
               <?php while ($row = mysqli_fetch_assoc($result))  { ?>
-                    <img class="img-detail" src="<?php echo $row['image'];?>" >
-                    <h3 id="h3-title-item"><?php echo $row['title'];?></h3> <p>LAST UPDATED: <?php echo $row['date'];?></p>
+                    <img class="img-detail" src="<?php echo $row['imageUrl'];?>" >
+                    <h3 id="h3-title-item"><?php echo $row['title'];?></h3> <p>PLATFORM: <?php echo $row['platform'];?></p>
                     <hr>
                     <p id="p-desc-item"><?php echo $row['description'];?><p>
                     </div>
