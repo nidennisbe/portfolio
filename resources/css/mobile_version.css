@@ -92,7 +92,7 @@ header{
         transition: .2s;
         transform: scale(1.0, 1.09);
     }
-    
+
     .btn_page_up {
         font-family: sans-serif;
         background: rgba(0, 0, 0, 0.88);
@@ -145,6 +145,7 @@ header{
         float: none;
         display: block;
         text-align: left;
+        background: black;
     }
 
     a.icon{

@@ -9,11 +9,12 @@
   text-align: right;
   padding-right: 20px;
   line-height: 40px;
+  font-family: impact;
   color: white;
 }
 
-.html {width: 70%; background-color: #dec813;}
+.html {width: 70%; background-color: #ab2121;}
 .css {width: 70%; background-color: #1b1b1b;}
 .js {width: 75%; background-color: #dec813;}
-.php {width: 50%; background-color: #1b1b1b;}
+.php {width: 50%; background-color: #4f2a8f;}
 </style>

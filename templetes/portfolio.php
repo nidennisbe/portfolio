@@ -25,6 +25,7 @@
                       <div class="product-img">
                           <img src="<?php echo $row['imageUrl'];?>" height="350" width="100%">
                       </div>
+
                       <div class="product-info">
                           <div class="product-text">
                               <h1><?php echo $row['title'];?></h1>
