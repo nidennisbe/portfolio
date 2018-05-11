@@ -19,8 +19,8 @@
 
                    <div class="box">
                       <h1 class="title_goal">NIDENNIS BE</h1>
-                         <a href="templetes/ultrabook.php"><img class="profile-image" src="./resources/pics/nidennis.jpg"style="width:250px;height:auto"></a>
-                           <h3 class="title_goal">Mobile Developer | UI designer</h3>
+                         <a href="templetes/ultrabook.php"><img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
+                           <h3 class="title_goal">Mobile Developer | UI Designer</h3>
                          <ul class="social-icons">
 
                                 <li><a href="http://www.facebook.com" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
