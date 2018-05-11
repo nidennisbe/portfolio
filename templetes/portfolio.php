@@ -14,12 +14,12 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
       <meta name="viewport" content="width=680px">
 </head>
-<body style="background-color:black">
+<body>
 <?php
       include "nav.php";
 ?>
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:black;padding:35px" ><strong>Mobiles</strong></h1></div>
-<section>
+<section style="background-color:black">
         <?php while ($result && $row = mysqli_fetch_assoc($result)) {?>
           <div class="wrapper">
                       <div class="product-img">
