@@ -19,7 +19,7 @@
 <?php
       include "nav.php";
 ?>
-<div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:#FF5077;padding:35px" ><strong>TOP SKILLS</strong></h1></div>
+<div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:black;padding:35px" ><strong>TOP SKILLS</strong></h1></div>
 <section>
   <ul id="skill">
     <li><span class="bar graphic-design"></span><h3>Native Android</h3></li>
