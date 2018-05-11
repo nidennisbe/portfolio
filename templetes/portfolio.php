@@ -28,7 +28,7 @@
                       <div class="product-info">
                           <div class="product-text">
                               <h1><?php echo $row['title'];?></h1>
-                              <h2>LAST UPDATED: <?php echo $row['startDate'];?></h2>
+                              <h2>LAST UPDATED: <?php echo $row['date'];?></h2>
                               <p><?php echo $row['description'];?> </p>
                           </div>
                           <div class="product-price-btn">
