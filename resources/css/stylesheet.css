@@ -75,7 +75,7 @@ button.subscribe {
     height: 60px;
     width: 15%;
     margin: 10px;
-    background: #E95589;
+    background: #c8213a;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
@@ -85,7 +85,7 @@ button.subscribe {
 
 button.subscribe:hover {
     color: white;
-    background: #E95589;
+    background: #c8213a;
 }
 
 hr {
@@ -491,7 +491,7 @@ h1.title_goal{
    font-family: " source-sans-pro-n6","source-sans-pro",sans-serif;
     font-size: 2.2em;
     text-align:left;
-    color: rgba(255, 80, 119, 0.76);
+    color: #c8213a;
 }
 
 #content{
