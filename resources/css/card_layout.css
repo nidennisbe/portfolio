@@ -50,7 +50,7 @@ body {
 
 .product-info {
   float: left;
-  height: 450px;
+  height: 550px;
   width: 55%;
   border-radius: 0 7px 10px 7px;
   background-color: #ffffff;
@@ -119,13 +119,13 @@ body {
   letter-spacing: 0.2em;
   color: #ff5077;
     background:white;
-  border:solid 2px #ff5077;
+  border:solid 2px #d02d2d;
   cursor: pointer;
   outline: none;
 }
 
 .product-price-btn button:hover {
-  background-color: #ff5077;
+  background-color: #d02d2d;
     color:white;
     -o-transition: .2s;
     -ms-transition: .2s;
