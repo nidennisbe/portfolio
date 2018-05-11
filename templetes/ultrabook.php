@@ -3,7 +3,7 @@
 <html>
 <head>
       <?php include "../resources/dbconnector/mysql-connector.php";?>
-      <?php $result = mysqli_query($conn, "SELECT * FROM tb_page_ultrabook");?>
+      <?php $result = mysqli_query($conn, "SELECT * FROM tb_portfolio");?>
       <link rel="icon" href="pics/nidennis.jpg">
       <meta charset="utf-8">
       <title>Ultrabooks</title>
@@ -23,12 +23,12 @@
         <?php while ($result && $row = mysqli_fetch_assoc($result)) {?>
           <div class="wrapper">
                       <div class="product-img">
-                          <img src="<?php echo $row['image'];?>" height="350" width="100%">
+                          <img src="<?php echo $row['imageUrl'];?>" height="350" width="100%">
                       </div>
                       <div class="product-info">
                           <div class="product-text">
                               <h1><?php echo $row['title'];?></h1>
-                              <h2>LAST UPDATED: <?php echo $row['date'];?></h2>
+                              <h2>LAST UPDATED: <?php echo $row['startDate'];?></h2>
                               <p><?php echo $row['description'];?> </p>
                           </div>
                           <div class="product-price-btn">
