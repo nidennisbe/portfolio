@@ -206,7 +206,7 @@ section {
 
 a.btn_sign_up:link,
 a.btn_sign_up:visited {
-    border-color: : #F9A602;
+    border-color: : #e0cd34;
     border-style: solid;
     float:right;margin-right:150px;
     color:white;
@@ -217,7 +217,7 @@ a.btn_sign_up:visited {
 }
 
 a.btn_sign_up:hover {
-     background-color: #F9A602;
+    background:linear-gradient(to bottom right,#e0c734,#f4ee1d);
     -o-transition: .2s;
     -ms-transition: .2s;
     -moz-transition: .2s;
