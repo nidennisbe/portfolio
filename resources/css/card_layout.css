@@ -23,14 +23,14 @@ body {
 }
 
 .wrapper{
-  height: 350px;
+  height: 460px;
   width: 1120px;
   float: left;
   border-radius: 7px 7px 7px 7px;
   -webkit-box-shadow: 10px 14px 32px 12px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 5px 14px 32px 5px rgba(0, 0, 0, 0.15);
-  margin-bottom: 180px;
+  margin-bottom: 200px;
     /*margin-right:110px;*/
     margin-left:45px;
 }
@@ -50,9 +50,9 @@ body {
 
 .product-info {
   float: left;
-  height: 650px;
+  height: 460px;
   width: 55%;
-  background-color: black;
+  background-color:white;
   border-radius: 7px 7px 7px 7px;
   -webkit-box-shadow: 10px 14px 32px 12px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -68,12 +68,12 @@ body {
   margin: 0 0 0 38px;
   padding-top: 25px;
   font-size: 34px;
-    color: #e0cd34;
+    color: #505050;
 }
 
 .product-text h1,
 .product-price-btn p {
-  font-family: 'Bentham', serif;
+    font-family: 'Charcoal', sans-serif;
 }
 
 .product-text h2 {
@@ -183,6 +183,16 @@ body {
     .product-text h2 {
         margin: 0 0 47px 38px;
         font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #afafaf;
+        letter-spacing: 0.2em;
+    }
+
+    .product-text h1 {
+        margin: 0 0 47px 38px;
+        font-size: 22px;
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
         text-transform: uppercase;

@@ -217,13 +217,14 @@ a.btn_sign_up:visited {
 }
 
 a.btn_sign_up:hover {
-    background:linear-gradient(to bottom right,#e0c734,#f4ee1d);
+    background:linear-gradient(to bottom right,#e0cd34,#e0cd34);
     -o-transition: .2s;
     -ms-transition: .2s;
     -moz-transition: .2s;
     -webkit-transition: .2s;
     transition: .2s;
     transition: .2s;
+    border-color: black;
     transform: scale(1.0, 1.09);
 }
 
