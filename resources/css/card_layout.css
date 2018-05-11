@@ -120,15 +120,15 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #F9A602;
+  color: #e0cd34;
     background:white;
-  border:solid 2px #d02d2d;
+  border:solid 2px #e0cd34;
   cursor: pointer;
   outline: none;
 }
 
 .product-price-btn button:hover {
-  background-color: #F9A602;
+  background-color: #e0cd34;
     color:white;
     -o-transition: .2s;
     -ms-transition: .2s;
