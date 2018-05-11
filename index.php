@@ -20,7 +20,7 @@
 
                    <div class="box">
                       <h1 class="title_goal">HELLO, I'M NIDENNIS</h1>
-                         <a href="templetes/ultrabook.php"><img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
+                         <a href="https://www.linkedin.com/in/nidennis-be-529572102/"><img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
                            <h3 class="title_goal">Mobile Developer &nbsp| &nbsp UI Designer</h3>
 
                          <ul class="social-icons">
