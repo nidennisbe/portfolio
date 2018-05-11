@@ -15,13 +15,14 @@
       include "templetes/nav.php";
 ?>
 
+
 <section id="boxes" class="header_wrapper " style="background: linear-gradient(to right, white   , #ffffff)">
             <div class="container">
 
-                   <div class="box">
+                   <div class="box" >
                       <h1 class="title_goal">HELLO, I'M NIDENNIS</h1>
 
-                         <a href="https://www.linkedin.com/in/nidennis-be-529572102/"><img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
+                         <a style="background:url('./resources/pics/classy-bg.jpg');width:100%;margin-bottom:50px" href="https://www.linkedin.com/in/nidennis-be-529572102/"><img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
                            <h3 class="title_goal">Mobile Developer &nbsp| &nbsp UI Designer</h3>
 
                          <ul class="social-icons">
@@ -37,8 +38,14 @@
 
                    <div class="box" >
                      <h1 class="title_goal">Summary</h1>
-                    <p id="text-summary"style="text-align: justify">I have a few years of experience in building native Android, desktop and Web application. Beside that I really love designing UI for mobile applications. I enjoy working with technologies as have a strong appreciation for its ability to provide solutions to people and businesses. I can’t wait to learn the new technologies that come out everyday.</p>
-                    <h1 class="title_goal">Top Skills</h1>
+                    <p id="text-summary"style="text-align: justify">
+I have a few years of experience in building native Android, desktop and Web applications.
+Beside that I really love designing UI for mobile applications as my hobby.
+ I enjoy working with technologies as have a strong appreciation for its ability to provide solutions to people and businesses.
+ I can’t wait to learn the new technologies that come out everyday in order to deliver the best applications
+ that can enhance people’s daily life activities in New Zealand.
+                    </p>
+                    <h1 class="title_goal">Core Skills</h1>
 
                     <p>Android</p>
                     <div class="container">
