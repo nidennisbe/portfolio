@@ -76,9 +76,23 @@ header{
     a.btn_sign_up:link,
     a.btn_sign_up:visited
     {
+        border-color: : #F9A602;
+        border-style: solid;
         width:30%;margin:0 auto;
         margin-bottom: 15px;
     }
+
+    a.btn_sign_up:hover {
+         background-color: #F9A602;
+        -o-transition: .2s;
+        -ms-transition: .2s;
+        -moz-transition: .2s;
+        -webkit-transition: .2s;
+        transition: .2s;
+        transition: .2s;
+        transform: scale(1.0, 1.09);
+    }
+    
     .btn_page_up {
         font-family: sans-serif;
         background: rgba(0, 0, 0, 0.88);
