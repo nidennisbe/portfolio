@@ -178,7 +178,7 @@ footer {
 }
 
 .zoom {
-    zoom: 67%;
+    zoom: 70%;
 }
 
 body {
@@ -424,8 +424,9 @@ ul li {
   font-size: 35px;
 }
 
-.fa-twitter:hover {
-    color: deepskyblue;
+.fa-github:hover {
+  color: purple;
+  font-size: 35px;
 }
 
 .fa-youtube {

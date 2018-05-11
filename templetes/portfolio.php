@@ -14,7 +14,7 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
       <meta name="viewport" content="width=680px">
 </head>
-<body>
+<body style="background-color:black">
 <?php
       include "nav.php";
 ?>
