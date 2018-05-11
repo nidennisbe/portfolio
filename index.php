@@ -14,7 +14,7 @@
       include "templetes/nav.php";
 ?>
 
-<section id="boxes" class="header_wrapper " style="background: linear-gradient(to right, #ebebeb, #ffffff)">
+<section id="boxes" class="header_wrapper " style="background: linear-gradient(to right, white   , #ffffff)">
             <div class="container">
 
                    <div class="box">
@@ -30,8 +30,10 @@
                                 <li><a href="https://www.instagram.com/dev_nidennisbe/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
 
                           </ul>
+                            <img src="./resources/pics/signature.png"style="width:250px"></a>
                    </div>
-                   <div class="box">
+
+                   <div class="box" >
                      <h3 class="text-goal-h3">Summary</h3>
                     <p id="text-summary"style="text-align: justify">I have a few years of experience in building native Android, desktop and Web application. Beside that I really love designing UI for mobile applications. I enjoy working with technologies as have a strong appreciation for its ability to provide solutions to people and businesses. I can’t wait to learn the new technologies that come out everyday.</p>
                     <h1 class="title_goal">Preview</h1>

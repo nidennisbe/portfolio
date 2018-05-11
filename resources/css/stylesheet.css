@@ -369,6 +369,11 @@ a.items_home {
     width: 100%;
 }
 
+#vl {
+    border-right: 2px solid black;
+    height: 500px;
+}
+
 
 /*SLIDE SHOW EFFECTS*/
 
