@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/mobile_version.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/css/skills.css"/>
     <meta charset="utf-8">
     <title>Home</title>
     <meta name="viewport" content="width=680px">
@@ -36,10 +37,35 @@
                    <div class="box" >
                      <h1 class="title_goal">Summary</h1>
                     <p id="text-summary"style="text-align: justify">I have a few years of experience in building native Android, desktop and Web application. Beside that I really love designing UI for mobile applications. I enjoy working with technologies as have a strong appreciation for its ability to provide solutions to people and businesses. I can’t wait to learn the new technologies that come out everyday.</p>
-                    <h1 class="title_goal">Preview</h1>
-                    <img src="./resources/pics/phone.png"style="width:250px"></a>
-                    <img src="./resources/pics/phone1.png"style="width:250px;height:auto"></a>
+                    <h1 class="title_goal">Top Skills</h1>
+
+                    <p>Android</p>
+                    <div class="container">
+                      <div class="skills html">70%</div>
+                    </div>
+
+                    <p>Java</p>
+                    <div class="container">
+                      <div class="skills css">70%</div>
+                    </div>
+
+                    <p>User Interface Design</p>
+                    <div class="container">
+                      <div class="skills js">75%</div>
+                    </div>
+
+                    <p>TypeScript</p>
+                    <div class="container">
+                      <div class="skills php">60%</div>
+                    </div>
+
                    </div>
+
+
+
+
+
+
            </div>
 </section>
 <?php

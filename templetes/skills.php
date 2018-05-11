@@ -11,7 +11,7 @@
       <link rel="stylesheet" type="text/css" href="../resources/css/card_layout.css" />
       <link rel="stylesheet" type="text/css" href="../resources/css/mobile_version.css"/>
       <link rel="stylesheet" type="text/css" href="../resources/css/text_effect.css"/>
-          <link rel="stylesheet" type="text/css" href="../resources/css/skills.css"/>
+      <link rel="stylesheet" type="text/css" href="../resources/css/skills.css"/>
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
       <meta name="viewport" content="width=680px">
 </head>
@@ -21,12 +21,25 @@
 ?>
 <div name="title" style="border-bottom: solid 1px #6998ba;height:100px"><h1 style="color:black;padding:35px" ><strong>TOP SKILLS</strong></h1></div>
 <section>
-  <ul id="skill">
-    <li><span class="bar graphic-design"></span><h3>Native Android</h3></li>
-    <li><span class="bar html-css"></span><h3>Java</h3></li>
-    <li><span class="bar jquery"></span><h3>User Interface Design</h3></li>
-    <li><span class="bar wordpress"></span><h3>Javascript</h3></li>
-  </ul>
+  <p>Android</p>
+  <div class="container">
+    <div class="skills html">70%</div>
+  </div>
+
+  <p>Java</p>
+  <div class="container">
+    <div class="skills css">70%</div>
+  </div>
+
+  <p>User Interface Design</p>
+  <div class="container">
+    <div class="skills js">75%</div>
+  </div>
+
+  <p>TypeScript</p>
+  <div class="container">
+    <div class="skills php">60%</div>
+  </div>
 </section>
 <?php
       include "footer.php";
