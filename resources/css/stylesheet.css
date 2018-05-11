@@ -233,6 +233,9 @@ a.element_nav:visited {
     background:#ffffff;
 }
 
+#text-summary {
+  font-family:Helvetica;
+}
 
 a.element_nav:hover,
 a.element_nav:active {
