@@ -213,7 +213,7 @@ section {
 
 a.btn_sign_up:link,
 a.btn_sign_up:visited {
-    border-color: : #e0cd34;
+    border-color: : #BCA37E;
     border-style: solid;
     float:right;margin-right:150px;
     color:white;
@@ -224,14 +224,14 @@ a.btn_sign_up:visited {
 }
 
 a.btn_sign_up:hover {
-    background:linear-gradient(to bottom right,#e0cd34,#e0cd34);
+    background-color: #BCA37E;
     -o-transition: .2s;
     -ms-transition: .2s;
     -moz-transition: .2s;
     -webkit-transition: .2s;
     transition: .2s;
     transition: .2s;
-    border-color: black;
+    border-color: #BCA37E;
     transform: scale(1.0, 1.09);
 }
 
@@ -249,33 +249,33 @@ a.element_nav:visited {
 a.element_nav:hover,
 a.element_nav:active {
     /*box-shadow: 2px 4px 4px 1px #888888;*/
-    border-bottom: 1px solid red;
-    color: rgba(255, 13, 74, 0.99);
+    border-bottom: 1px solid #BCA37E;
+    color: #BCA37E;
     opacity: .90;
     transition: .2s;
 }
 
 a.element_nav1:hover,
 a.element_nav1:active {
-    border-bottom: 1px solid yellowgreen;
+    border-bottom: 1px solid #BCA37E;
     opacity: .90;
-    color: #7fa829;
+    color: #BCA37E;
     transition: .2s;
 }
 
 a.element_nav2:hover,
 a.element_nav2:active {
-    border-bottom: 1px solid #2eb1b0;
+    border-bottom: 1px solid #BCA37E;
     opacity: .90;
-    color: #2eb1b0;
+    color: #BCA37E;
     transition: .2s;
 }
 
 a.element_nav3:hover,
 a.element_nav3:active {
-    border-bottom: 1px solid #e3d52e;
+    border-bottom: 1px solid #BCA37E;
     opacity: .90;
-    color: #FF4823;
+    color: #BCA37E;
     transition: .2s;
 }
 
@@ -297,7 +297,7 @@ a.element_footer:hover,
 a.element_footer:active
 {
     text-decoration: underline;
-    color: rgba(255, 252, 249, 1);
+    color: #ebebeb;
 
 }
 
@@ -323,8 +323,8 @@ a:visited {
 
 a:hover,
 a:active {
-    opacity: 1.0;
-    color: #fbfbff;
+    opacity: 2.0;
+    color: #BCA37E;
 }
 
 
@@ -344,8 +344,10 @@ h2 {
 }
 
 h3 {
-    color: black;
+    color: #BCA37E;
     padding: 10px;
+    font-family: monospace;
+    font-size: 25px;
 }
 
 h5 {
@@ -506,7 +508,7 @@ h1.title_goal{
    font-family: " source-sans-pro-n6","source-sans-pro",sans-serif;
     font-size: 1.8em;
     text-align:left;
-    color: #dec813;
+    color: #BCA37E;
 }
 
 #content{
