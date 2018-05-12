@@ -20,6 +20,7 @@
             <div class="container">
 
                    <div class="box" >
+
                       <h1 class="title_goal">HELLO, I'M NIDENNIS</h1>
                          <a style="background:url('./resources/pics/classy-bg.jpg');width:100%;margin-bottom:50px" href="https://www.linkedin.com/in/nidennis-be-529572102/"><img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
                            <h3 class="title_goal">Mobile Developer &nbsp| &nbsp UI Designer</h3>
@@ -32,6 +33,7 @@
                           </ul>
 
                             <img src="./resources/pics/signature.png"style="width:250px;margin-top:20px"></a>
+                              <a> <img src="./resources/pics/logo.png"style="width:135px;margin-top:20px"></a>
                    </div>
 
                    <div class="box" >

@@ -4,7 +4,6 @@
 <nav>
     <div class="topnav" id="wrapper_nav">
       <a href="javascript:void(0);" style="font-size:26px;" class="icon" onclick="myFunction()">&#9776;</a>
-        <img src="./resources/pics/logo.png"style="width:65px;margin-top:20px"></a>
             <a class="element_nav"  href="../index.php">Profile</a>
             <a class="element_nav1" href="../templetes/portfolio.php">Portfolio</a>
             <a class="element_nav2" href="../templetes/skills.php">Skills</a>
