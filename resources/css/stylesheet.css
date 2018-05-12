@@ -216,7 +216,7 @@ a.btn_sign_up:visited {
     border-color: : #BCA37E;
     border-style: solid;
     float:right;margin-right:150px;
-    color:white;
+    color:#BCA37E;
     padding:10px;
     padding-top: 25px;
     width:220px;
@@ -231,6 +231,7 @@ a.btn_sign_up:hover {
     -webkit-transition: .2s;
     transition: .2s;
     transition: .2s;
+    color: black;
     border-color: #BCA37E;
     transform: scale(1.0, 1.09);
 }
