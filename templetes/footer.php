@@ -14,15 +14,15 @@
 <footer>
     <div id="wrapper_footer">
 <center>
-            <a href="#top"style="color:white;">GO TO TOP</a>
+            <a href="#top"style="color:#BCA37E;">GO TO TOP</a>
             <a class="element_footer" href="../index.php">Profile</a>
             <a class="element_footer" href="../templetes/portfolio.php">Portfolio</a>
             <a class="element_footer" href="../templetes/skills.php">Skills</a>
-          
+
 
     </div>
     <a rel='nofollow' style='cursor:default'><img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fnidennis-be-529572102%2F&chs=180x180&choe=UTF-8&chld=L|2' alt='' style="display:block;margin:0 auto" border='0'></a>
-<div style="text-align:center; margin-top:25px">
+<div style="text-align:center; margin-top:25px;color:#BCA37E";>
   <a class="line-1 anim-typewriter">Copyright &copy; 2018 | NIDENNIS BE</a>
 </div>
 </footer>
