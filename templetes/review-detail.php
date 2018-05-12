@@ -33,9 +33,9 @@
 <center>
 <div name="title" style="border-bottom: solid 1px #c8213a;height:100px;float:left;"><h1 style="color:black;padding:35px" ><strong>Detail</strong></h1></div>
 <section>
-            <div id="content">
+            <div>
               <?php while ($row = mysqli_fetch_assoc($result))  { ?>
-                    <img class="img-detail" src="<?php echo $row['imageUrl'];?>" >
+                    <img class="img-detail" style="height:auto" src="<?php echo $row['imageUrl'];?>" >
                     <h3 id="h3-title-item"><?php echo $row['title'];?></h3> <p>PLATFORM: <?php echo $row['platform'];?></p>
                     <hr>
                     <p id="p-desc-item"><?php echo $row['description'];?></p>
