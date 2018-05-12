@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <link rel="icon" href="resources/pics/nidennis.jpg">
+    <link rel="icon" href="resources/pics/logo.png">
     <link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/mobile_version.css"/>
@@ -21,10 +21,8 @@
 
                    <div class="box" >
                       <h1 class="title_goal">HELLO, I'M NIDENNIS</h1>
-
                          <a style="background:url('./resources/pics/classy-bg.jpg');width:100%;margin-bottom:50px" href="https://www.linkedin.com/in/nidennis-be-529572102/"><img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
                            <h3 class="title_goal">Mobile Developer &nbsp| &nbsp UI Designer</h3>
-
                          <ul class="social-icons">
                                 <li> <a href="tel:022-025-8124"><img style="width: 35px; height:auto" src="./resources/pics/icon-phone.png" /></a></li>
                                 <li><a href="https://www.facebook.com/nidennisbe" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
