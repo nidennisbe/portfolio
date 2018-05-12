@@ -136,14 +136,15 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #BCA37E;
-    background:white;
-  border:solid 2px #BCA37E;
+    background:#474747;
+  border:solid 2px #474747;
   cursor: pointer;
   outline: none;
 }
 
 .product-price-btn button:hover {
   background-color: #BCA37E;
+    border:solid 2px #BCA37E;
     color:white;
     -o-transition: .2s;
     -ms-transition: .2s;
