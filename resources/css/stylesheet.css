@@ -245,7 +245,8 @@ a.element_nav:visited {
 }
 
 #text-summary {
-  font-family:Helvetica;
+  font-family:Verdana;
+  line-height: 2.3;
 }
 
 a.element_nav:hover,
