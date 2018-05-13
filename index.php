@@ -50,9 +50,7 @@
                                 <li><a href="https://www.youtube.com/user/nidennisbe" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
                                 <li><a href="https://www.instagram.com/dev_nidennisbe/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
                           </ul>
-
                             <img src="./resources/pics/signature.png"style="width:250px;margin-top:20px"></a>
-                              <a> <img src="./resources/pics/logo.png"style="width:135px;margin-top:20px"></a>
                    </div>
 
                    <div class="box" >
