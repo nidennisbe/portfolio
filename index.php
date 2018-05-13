@@ -3,7 +3,8 @@
 <head>
   <script async custom-element="amp-analytics"
     src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Russo+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Basic|Luckiest+Guy|Russo+One" rel="stylesheet"> 
     <link rel="icon" href="resources/pics/logo.png">
     <link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
@@ -41,7 +42,8 @@
                    <div class="box" >
 
                       <h1 class="title_goal">HELLO, I'M NIDENNIS</h1>
-                         <a style="background:url('./resources/pics/classy-bg.jpg');width:100%;margin-bottom:50px" href="https://www.linkedin.com/in/nidennis-be-529572102/"><img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
+                         <a style="background:url('./resources/pics/classy-bg.jpg');width:100%;margin-bottom:50px" href="https://www.linkedin.com/in/nidennis-be-529572102/">
+                           <img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
                            <h3 class="title_goal">Mobile Developer &nbsp| &nbsp UI Designer</h3>
                          <ul class="social-icons">
                                 <li> <a href="tel:022-025-8124"><img style="width: 35px; height:auto" src="./resources/pics/icon-phone.png" /></a></li>
