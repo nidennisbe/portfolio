@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
 <head>
+  <script async custom-element="amp-analytics"
+    src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
     <link rel="icon" href="resources/pics/logo.png">
     <link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
@@ -11,6 +14,22 @@
     <meta name="viewport" content="width=680px">
 </head>
 <body >
+  <amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "portfolio-b12a0 "
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>
+
 <?php
       include "templetes/nav.php";
 ?>
