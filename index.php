@@ -44,7 +44,7 @@
                       <h1 class="title_goal">HELLO, I'M NIDENNIS</h1>
                          <div class="cover-image"style="width:100%;margin-bottom:50px" href="https://www.linkedin.com/in/nidennis-be-529572102/">
                            <img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
-                           <h3 class="title_goal">Android Developer &nbsp &nbsp UI Designer</h3>
+                           <h3 class="title_goal">Android Developer</h3>
                          <ul class="social-icons">
                                 <li> <a href="tel:022-025-8124"><img style="width: 35px; height:auto" src="./resources/pics/icon-phone.png" /></a></li>
                                 <li><a href="https://www.facebook.com/nidennisbe" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
@@ -85,10 +85,13 @@
                     <div class="container">
                       <div class="skills php">60%</div>
                     </div>
-
+   <h1 class="title_goal">Education</h1>
                    </div>
 
            </div>
+
+           <img src="./resources/pics/ic-limkokwing.png"style="width:250px;margin-top:20px"></a>
+           <img src="./resources/pics/ic-edenz.jpg"style="width:250px;margin-top:20px"></a>
 </section>
 <?php
         include "templetes/trending_section.php";

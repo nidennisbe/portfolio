@@ -30,7 +30,7 @@ body {
   -webkit-box-shadow: 10px 14px 32px 12px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 5px 14px 32px 5px rgba(0, 0, 0, 0.15);
-  margin-bottom: 200px;
+  margin-bottom: 130px;
     /*margin-right:110px;*/
     margin-left:45px;
 }
@@ -83,7 +83,7 @@ body {
   margin: 0 0 0 38px;
   padding-top: 25px;
   font-size: 34px;
-    color: #BCA37E;
+    color: #837ebb;
 }
 
 .product-text h1,
@@ -97,7 +97,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  color: #BCA37E;
+  color: #837ebb;
   letter-spacing: 0.2em;
 }
 
@@ -106,7 +106,7 @@ body {
   margin: 0 0 0 38px;
     padding-left:15px;
   font-family: 'Basic', sans-serif;
-  color: #BCA37E;
+  color: #837ebb;
   line-height: 1.7em;
   font-size: 22px;
   font-weight: lighter;
@@ -135,7 +135,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #BCA37E;
+  color: #d0d0d2;
     background:#474747;
   border:solid 2px #474747;
   cursor: pointer;
@@ -143,8 +143,8 @@ body {
 }
 
 .product-price-btn button:hover {
-  background-color: #BCA37E;
-    border:solid 2px #BCA37E;
+  background-color: #837ebb;
+    border:solid 2px #837ebb;
     color:white;
     -o-transition: .2s;
     -ms-transition: .2s;
@@ -204,7 +204,7 @@ body {
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
         text-transform: uppercase;
-        color: #BCA37E;
+        color: #837ebb;
         letter-spacing: 0.2em;
     }
 
@@ -214,7 +214,7 @@ body {
         font-family: 'Charcoal', sans-serif;
         font-weight: bold;
         text-transform: uppercase;
-        color: #BCA37E;
+        color: #837ebb;
         letter-spacing: 0.2em;
     }
 
@@ -222,7 +222,7 @@ body {
         height: 160px;
         margin: 0 0 0 38px;
         font-family: 'Playfair Display', serif;
-        color: #BCA37E;
+        color: #837ebb;
         line-height: 1.7em;
         font-size: 24px;
         font-weight: lighter;
