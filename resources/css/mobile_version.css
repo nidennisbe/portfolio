@@ -33,6 +33,7 @@ header{
     a.element_nav:visited {
         color: #464646;
         border: 1px solid #ffffff;
+        width: auto;
     }
 
     a.element_footer{
@@ -78,7 +79,8 @@ header{
     {
         border-color: : #F9A602;
         border-style: solid;
-        width:30%;margin:0 auto;
+        width:220px;
+        margin:0 auto;
         margin-bottom: 15px;
     }
 
