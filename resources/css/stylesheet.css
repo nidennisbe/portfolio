@@ -245,11 +245,11 @@ a.element_nav:visited {
 }
 
 #text-summary {
-  font-family:'Basic', sans-serif;
+  font-family:Montserrat,sans-serif;
   line-height: 2.3;
   font-weight: 400;
   color: #4e4c58;
-  font-size: 1.6em;
+  font-size: 1.2em;
 }
 
 a.element_nav:hover,
@@ -310,7 +310,7 @@ a.element_footer:active
 a:link,
 a:visited {
     overflow: hidden;
-    font-weight: bold;
+    font-weight: lighter;
     text-transform: uppercase;
     border-radius: 4px;
     margin: 0;
@@ -321,7 +321,7 @@ a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
     bottom: 1px;
     font-size: 1.3em;
     margin-left: 10px;
@@ -506,14 +506,8 @@ ul li {
 
 h1.title_goal{
     color: rgba(122, 122, 122, 0.97);
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Russo One',sans-serif;
     font-size: 2.5em;
-}
-
-h3.title_goal{
-    color: #BCA37E;
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 1.5em;
 }
 
 #h3-title-item {

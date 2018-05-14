@@ -4,7 +4,6 @@
   <script async custom-element="amp-analytics"
     src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Russo+One" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Basic|Luckiest+Guy|Russo+One" rel="stylesheet"> 
     <link rel="icon" href="resources/pics/logo.png">
     <link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
