@@ -154,27 +154,33 @@ header{
         visibility:visible;
     }
     #boxes{
-        margin-top:20px;
-        padding-bottom: 0;
+        padding-top: 4.5%;
+        overflow:auto;
+        height: auto;
+        width:90%; margin:0 auto;
     }
 
-
     #boxes .box{
-        float:none;
+        float:left;
         text-align: center;
-        width:100%;
+
         padding:10px;
+        margin-right:2%;
+
     }
 
     #boxes .box img{
-        width:500px;
+        width:600px;
+    }
+
+
     }
     footer {
         box-shadow: 0 0 5px #888888;
         padding-top: 50px;
         padding-left: 48px;
         height: 750px;
-        background-color: #8bc1e9;
+        background: linear-gradient(to right, #4c4966,#3b3a50);
         position: absolute;
         width: 100%;
         right: 0;
@@ -206,7 +212,7 @@ header{
         height: auto;
         width: 100%;
         background-color: #d1d1d1;
-        padding-bottom: 850px;
+        padding-bottom: 400px;
         box-shadow: 0 0 1px #888888;
     }
     .img-detail img{

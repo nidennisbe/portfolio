@@ -121,6 +121,7 @@ html, body {
     width: 100%;
     margin-top: 6px;
     display: inline-block
+
 }
 
 nav {
@@ -129,10 +130,18 @@ nav {
     position: relative;
     overflow: hidden;
     margin-bottom: 5px;
-    background-color:black;
+
     top: 0;
     clear: both;
     width: 100%;
+    height: 500px;
+    background-image: url('../pics/classy-bg.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
     transition: top 0.2s ease-in-out;
     padding-bottom: 5px;
 }
@@ -214,10 +223,10 @@ section {
 
 a.btn_sign_up:link,
 a.btn_sign_up:visited {
-    border-color: : #BCA37E;
+    border-color: : #c9c6c6;
     border-style: solid;
     float:right;margin-right:150px;
-    color:#BCA37E;
+    color:#c9c6c6;
     padding:10px;
     padding-top: 25px;
     width:auto;
@@ -239,7 +248,7 @@ a.btn_sign_up:hover {
 
 a.element_nav :link,
 a.element_nav:visited {
-    color: #BCA37E;
+    color: #c9c6c6;
     border: 1px solid #ffffff;
     background:#ffffff;
 }
@@ -291,9 +300,9 @@ a.items_home:hover {
 
 a.element_footer:link,
 a.element_footer:visited {
-    color: #BCA37E;
+    color: #c9c6c6;
     margin:0 auto;
-    border: 0 solid #ffffff;
+    border: 0 solid #c9c6c6;
 
 }
 
@@ -303,7 +312,7 @@ a.element_footer:hover,
 a.element_footer:active
 {
     text-decoration: underline;
-    color: #BCA37E;
+    color: #c9c6c6;
 
 }
 
@@ -316,7 +325,7 @@ a:visited {
     margin: 0;
     opacity: .90;
     font-size: large;
-    color: #BCA37E;
+    color: #c9c6c6;
     padding: 20px 10px;
     text-align: center;
     text-decoration: none;
@@ -350,7 +359,7 @@ h2 {
 }
 
 h3 {
-    color: #BCA37E;
+    color: #837ebb;
     padding: 10px;
     font-family: monospace;
     font-size: 25px;
@@ -490,14 +499,16 @@ ul li {
     padding-top: 4.5%;
     overflow:auto;
     height: auto;
+    width:70%; margin:0 auto;
 }
 
 #boxes .box{
     float:left;
     text-align: center;
-    width:48%;
+
     padding:10px;
     margin-right:2%;
+
 }
 
 #boxes .box img{
@@ -505,7 +516,7 @@ ul li {
 }
 
 h1.title_goal{
-    color: rgba(122, 122, 122, 0.97);
+    color:#837ebb;
     font-family: 'Russo One',sans-serif;
     font-size: 2.5em;
 }
@@ -521,6 +532,17 @@ h1.title_goal{
 width:80%;
     box-shadow: 5px 14px 32px 5px rgba(0, 0, 0, 0.15);
 padding:25px;
+}
+
+a .cover-image {
+
+  background:url('./pics/classy-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 80px;
 }
 
 /* Global */
