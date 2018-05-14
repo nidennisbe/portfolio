@@ -74,18 +74,20 @@ header{
     .header_wrapper{
         display:block;
     }
-    a.btn_sign_up:link,
-    a.btn_sign_up:visited
+    a#btn_sign_up:link,
+    a#btn_sign_up:visited
     {
         border-color: : #F9A602;
         border-style: solid;
         width:220px;
         margin:0 auto;
+        margin-right: 210px;
+        background-color: #0e8ce2;
         margin-bottom: 15px;
     }
 
-    a.btn_sign_up:hover {
-         background-color: #F9A602;
+    a#btn_sign_up:hover {
+         background-color: #2498e7;
         -o-transition: .2s;
         -ms-transition: .2s;
         -moz-transition: .2s;
@@ -148,6 +150,7 @@ header{
         display: block;
         text-align: left;
         background: black;
+
     }
 
     a.icon{
@@ -179,7 +182,7 @@ header{
         box-shadow: 0 0 5px #888888;
         padding-top: 50px;
         padding-left: 48px;
-        height: 380px;
+        height: 680px;
         background: linear-gradient(to right, #4c4966,#3b3a50);
         position: absolute;
         width: 100%;
@@ -201,6 +204,15 @@ header{
     #wrapper_nav {
         margin:0;
     }
+
+    #text-summary {
+    font-family: Montserrat,sans-serif;
+    line-height: 2.3;
+    font-weight: 400;
+    color: #4e4c58;
+    font-size: 1.2em;
+    width: auto;
+}
 
     section {
         padding-top: 10px;

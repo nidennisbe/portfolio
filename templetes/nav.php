@@ -1,13 +1,14 @@
 
 <html>
-
+<link href="resources/css/bootstrap.min.css" rel="stylesheet">
+<link href="resources/css/bootstrap-theme.css" rel="stylesheet">
 <nav>
     <div class="topnav" id="wrapper_nav">
       <a href="javascript:void(0);" style="font-size:26px;" class="icon" onclick="myFunction()">&#9776;</a>
             <a class="element_nav"  href="../index.php">Profile</a>
             <a class="element_nav1" href="../templetes/portfolio.php">Portfolio</a>
             <a class="element_nav2" href="../templetes/skills.php">Skills</a>
-            <a class="btn_sign_up"  href="https://firebasestorage.googleapis.com/v0/b/portfolio-b12a0.appspot.com/o/portfolio-images%2FNidennisBE's%20CV%20(Android%20developer).pdf?alt=media&token=a38ab1e7-463a-4769-983b-cdcd9db1a618">Download CV</a>
+            <a class="btn btn-lg btn-primary" id="btn_sign_up" href="https://firebasestorage.googleapis.com/v0/b/portfolio-b12a0.appspot.com/o/portfolio-images%2FNidennisBE's%20CV%20(Android%20developer).pdf?alt=media&token=a38ab1e7-463a-4769-983b-cdcd9db1a618">Download CV</a>
       </a>
     </div>
 </nav>

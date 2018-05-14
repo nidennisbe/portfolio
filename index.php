@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="resources/css/text_effect.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/mobile_version.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/skills.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/css/base.css" />
+  <link rel="stylesheet" type="text/css" href="resources/css/demo1.css" />
     <meta charset="utf-8">
     <title>Home</title>
     <meta name="viewport" content="width=680px">
