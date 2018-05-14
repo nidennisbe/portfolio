@@ -256,6 +256,7 @@ a.element_nav:visited {
   font-weight: 400;
   color: #4e4c58;
   font-size: 1.2em;
+  text-align: justify;
 }
 
 a.element_nav:hover,

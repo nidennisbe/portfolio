@@ -160,12 +160,12 @@ header{
         padding-top: 4.5%;
         overflow:auto;
         height: auto;
-        width:90%; margin:0 auto;
+        width:90%;
+         margin:0 auto;
     }
 
     #boxes .box{
-        float:left;
-        text-align: center;
+        margin:0 auto;
 
         padding:10px;
         margin-right:2%;
@@ -212,6 +212,7 @@ header{
     color: #4e4c58;
     font-size: 1.2em;
     width: auto;
+    text-align: justify;
 }
 
     section {

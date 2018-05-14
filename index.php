@@ -59,12 +59,12 @@
 
                    <div class="box" >
                      <h1 class="title_goal">Summary</h1>
-                    <p id="text-summary"style="text-align: justify">
-                      I have a few years of experience in building native Android, desktop and Web applications.
-                      Beside that I really love designing UI for mobile applications as my hobby.
-                      I enjoy working with technologies as have a strong appreciation for its ability to provide solutions to people and businesses.
-                      I can’t wait to learn the new technologies that come out everyday in order to deliver the best applications
-                      that can enhance people’s daily life activities in New Zealand.
+                    <p id="text-summary">
+                      Experienced in coding with native android, desktop software and some web applications.
+                       I really enjoy learning latest technologies as have strong appreciation for its ability to provide efficient
+                       solutions and improve productivities. I would value the opportunity to work for your company and create quality
+                       software products that will meet the demands of your customers as well as I would be pleased to utilize my skills
+                       to transform and upgrade your software to perform well and to build a professional image for your business.
                     </p>
                     <h1 class="title_goal">Core Skills</h1>
 
