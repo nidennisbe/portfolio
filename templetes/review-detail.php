@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
 <head>
+  <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../resources/css/bootstrap-theme.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../resources/css/stylesheet.css"/>
     <link rel="stylesheet" type="text/css" href="../resources/css/card_layout.css"/>
     <link rel="stylesheet" type="text/css" href="../resources/css/text_effect.css"/>

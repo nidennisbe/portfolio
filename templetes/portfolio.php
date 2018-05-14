@@ -7,6 +7,8 @@
       <link rel="icon" href="pics/nidennis.jpg">
       <meta charset="utf-8">
       <title>Portfolio</title>
+      <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+      <link href="../resources/css/bootstrap-theme.css" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="../resources/css/stylesheet.css" />
       <link rel="stylesheet" type="text/css" href="../resources/css/card_layout.css" />
       <link rel="stylesheet" type="text/css" href="../resources/css/mobile_version.css"/>

@@ -167,7 +167,7 @@ footer {
     box-shadow: 0 3px 5px #888888;
     padding-top: 50px;
     padding-bottom:50px;
-    height: 680px;
+    height: 380px;
     background: linear-gradient(to right,black, black); /* Standard syntax (must be*/
     position: absolute;
     width: 100%;
@@ -554,8 +554,9 @@ position: relative;
 top: 50%;
 width: 24em;
 margin: 0 auto;
+margin-left: 1000px;
 border-right: 2px solid rgba(255,255,255,.75);
-font-size: 180%;
+font-size: 130%;
 text-align: center;
 white-space: nowrap;
 overflow: hidden;
