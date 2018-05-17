@@ -9,6 +9,9 @@
     <link rel="stylesheet" type="text/css" href="../resources/css/mobile_version.css"/>
     <meta charset="utf-8">
     <title>Review detail</title>
+      <?php while ($row = mysqli_fetch_assoc($result))  { ?>
+    <meta property="og:image" content="<?php echo $row['imageUrl'];?>"/>
+      <?php } ?>
     <meta name="viewport" content="width=680px">
 <?php
     include "../resources/dbconnector/mysql-connector.php";
