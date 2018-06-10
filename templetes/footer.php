@@ -14,7 +14,7 @@
 <footer>
     <div id="wrapper_footer">
 <center>
-            <a href="#top"style="color:#c9c6c6">GO TO TOP</a>
+            <a href="#top"style="color:black">GO TO TOP</a>
             <a class="element_footer" href="../index.php">Profile</a>
             <a class="element_footer" href="../templetes/portfolio.php">Portfolio</a>
             <a class="element_footer" href="../templetes/skills.php">Skills</a>

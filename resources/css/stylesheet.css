@@ -138,7 +138,7 @@ nav {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
 
 
     transition: top 0.2s ease-in-out;
@@ -206,7 +206,7 @@ section {
     elevation: 60deg;
     overflow: auto;
     height: auto;
-    width: 100%;
+    width: auto;
     background-color: #d1d1d1;
     transform: translateY(-120px);
 -webkit-transform: translateY(-120px);
@@ -245,7 +245,8 @@ a#btn_sign_up:visited {
 
 a.element_nav :link,
 a.element_nav:visited {
-    color: #c9c6c6;
+    color: black;
+    font-weight: bolder;
     border: 1px solid #ffffff;
     background:#ffffff;
 }
@@ -255,6 +256,7 @@ a.element_nav:visited {
   line-height: 2.3;
   font-weight: 400;
   color: #4e4c58;
+  width: 0 auto;
   font-size: 1.2em;
   text-align: justify;
 }
@@ -262,7 +264,7 @@ a.element_nav:visited {
 a.element_nav:hover,
 a.element_nav:active {
     /*box-shadow: 2px 4px 4px 1px #888888;*/
-    border-bottom: 1px solid #BCA37E;
+
     color: #BCA37E;
     opacity: .90;
     transition: .2s;
@@ -270,7 +272,7 @@ a.element_nav:active {
 
 a.element_nav1:hover,
 a.element_nav1:active {
-    border-bottom: 1px solid #BCA37E;
+
     opacity: .90;
     color: #BCA37E;
     transition: .2s;
@@ -278,7 +280,7 @@ a.element_nav1:active {
 
 a.element_nav2:hover,
 a.element_nav2:active {
-    border-bottom: 1px solid #BCA37E;
+
     opacity: .90;
     color: #BCA37E;
     transition: .2s;
@@ -286,7 +288,7 @@ a.element_nav2:active {
 
 a.element_nav3:hover,
 a.element_nav3:active {
-    border-bottom: 1px solid #BCA37E;
+
     opacity: .90;
     color: #BCA37E;
     transition: .2s;
@@ -298,7 +300,7 @@ a.items_home:hover {
 
 a.element_footer:link,
 a.element_footer:visited {
-    color: #c9c6c6;
+    color: white;
     margin:0 auto;
     border: 0 solid #c9c6c6;
 
@@ -309,7 +311,7 @@ a.element_footer:visited {
 a.element_footer:hover,
 a.element_footer:active
 {
-    text-decoration: underline;
+
     color: #c9c6c6;
 
 }
@@ -323,7 +325,7 @@ a:visited {
     margin: 0;
     opacity: .90;
     font-size: large;
-    color: #c9c6c6;
+    color: black;
     padding: 20px 10px;
     text-align: center;
     text-decoration: none;
@@ -336,7 +338,7 @@ a:visited {
 
 a:hover,
 a:active {
-    opacity: 2.0;
+    opacity: 1.0;
     color: #BCA37E;
 }
 
@@ -497,7 +499,7 @@ ul li {
     padding-top: 4.5%;
     overflow:auto;
     height: auto;
-    width:70%; margin:0 auto;
+    width:80%; margin:0 auto;
     -webkit-box-shadow: 10px 14px 32px 12px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 10px 14px 32px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 5px 14px 32px 5px rgba(0, 0, 0, 0.15);
@@ -549,12 +551,12 @@ a .cover-image {
 /* Global */
 
 
-.line-1{
+.line-1 a{
 position: relative;
 top: 50%;
 width: 24em;
 margin: 0 auto;
-margin-left: 1000px;
+text-align: center;
 border-right: 2px solid rgba(255,255,255,.75);
 font-size: 130%;
 text-align: center;
