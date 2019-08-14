@@ -72,7 +72,7 @@
 
                     <p>Brand Design</p>
                     <div class="container">
-                      <div class="skills html">70%</div>
+                      <div class="skills html">80%</div>
                     </div>
 
                     <p>Logo</p>
@@ -87,7 +87,7 @@
 
                     <p>TypeScript</p>
                     <div class="container">
-                      <div class="skills php">60%</div>
+                      <div class="skills php">80%</div>
                     </div>
    <h1 class="title_goal">Education</h1>
                    </div>
