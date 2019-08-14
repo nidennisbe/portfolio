@@ -44,11 +44,12 @@
                    <div class="box" >
 
                       <h1 class="title_goal">HELLO, I'M NIDENNIS</h1>
-                         <div class="cover-image"style="width:100%;margin-bottom:50px" href="https://www.linkedin.com/in/nidennis-be-529572102/">
+                      <h1 class="title_tel">Call me now to have a talk 092 51 91 51 h1>                        
+                     <div class="cover-image"style="width:100%;margin-bottom:50px" href="https://www.linkedin.com/in/nidennis-be-529572102/">
                            <img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
-                           <h3 class="title_goal">UX/UI Designer - Brand Designer</h3>
+                           <h3 class="title_goal">UX/UI Designer - Brand Designer (Freelancer)</h3>
                          <ul class="social-icons">
-                                <li> <a href="tel:022-025-8124"><img style="width: 35px; height:auto" src="./resources/pics/icon-phone.png" /></a></li>
+                                <li> <a href="tel:092-519-151"><img style="width: 35px; height:auto" src="./resources/pics/icon-phone.png" /></a></li>
                                 <li><a href="https://www.facebook.com/nidennisbe" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
                                 <li><a href="https://github.com/nidennisbe" class="social-icon"> <i class="fa fa-github"></i></a></li>
                                 <li><a href="https://www.youtube.com/user/nidennisbe" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
@@ -65,6 +66,7 @@
                        solutions and improve productivities. I would love to add value to your company and create quality
                        design products that will meet the demands of your business needs as well as I would like
                        to transform and upgrade your design to perform well and to build a professional image for your business.
+                       I do accept all kind of projects from small to big with reasonable price.
                     </p>
                     <h1 class="title_goal">Core Skills</h1>
 
