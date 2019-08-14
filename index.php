@@ -46,7 +46,7 @@
                       <h1 class="title_goal">HELLO, I'M NIDENNIS</h1>
                          <div class="cover-image"style="width:100%;margin-bottom:50px" href="https://www.linkedin.com/in/nidennis-be-529572102/">
                            <img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
-                           <h3 class="title_goal">Android Developer</h3>
+                           <h3 class="title_goal">UX/UI Designer - Brand Designer</h3>
                          <ul class="social-icons">
                                 <li> <a href="tel:022-025-8124"><img style="width: 35px; height:auto" src="./resources/pics/icon-phone.png" /></a></li>
                                 <li><a href="https://www.facebook.com/nidennisbe" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
@@ -60,20 +60,20 @@
                    <div class="box" >
                      <h1 class="title_goal">Summary</h1>
                     <p id="text-summary">
-                      Experienced in coding with native android, desktop software and some web applications.
+                      Experienced in many design fields such as brand design, logos, namecards, poster, mobile prototype, brochure.
                        I really enjoy learning latest technologies as have strong appreciation for its ability to provide efficient
-                       solutions and improve productivities. I would value the opportunity to work for your company and create quality
-                       software products that will meet the demands of your customers as well as I would be pleased to utilize my skills
-                       to transform and upgrade your software to perform well and to build a professional image for your business.
+                       solutions and improve productivities. I would love to add value to your company and create quality
+                       design products that will meet the demands of your business needs as well as I would like
+                       to transform and upgrade your design to perform well and to build a professional image for your business.
                     </p>
                     <h1 class="title_goal">Core Skills</h1>
 
-                    <p>Android</p>
+                    <p>Brand Design</p>
                     <div class="container">
                       <div class="skills html">70%</div>
                     </div>
 
-                    <p>Java</p>
+                    <p>Logo</p>
                     <div class="container">
                       <div class="skills css">70%</div>
                     </div>
