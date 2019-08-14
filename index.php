@@ -80,14 +80,14 @@
                       <div class="skills css">70%</div>
                     </div>
 
-                    <p>User Interface Design</p>
+                    <p>User Interface Design/ User Experience</p>
                     <div class="container">
                       <div class="skills js">75%</div>
                     </div>
 
-                    <p>TypeScript</p>
+                    <p>Namecard</p>
                     <div class="container">
-                      <div class="skills php">80%</div>
+                      <div class="skills php">85%</div>
                     </div>
    <h1 class="title_goal">Education</h1>
                    </div>
