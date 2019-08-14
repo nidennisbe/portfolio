@@ -44,7 +44,7 @@
                    <div class="box" >
 
                       <h1 class="title_goal">HELLO, I'M NIDENNIS</h1>
-                      <h1 class="title_tel">Call me now to have a talk 092 51 91 51 h1>                        
+                      <h1 class="title_goal">Call me now to have a talk 092 51 91 51 </h1>                        
                      <div class="cover-image"style="width:100%;margin-bottom:50px" href="https://www.linkedin.com/in/nidennis-be-529572102/">
                            <img class="profile-image" src="./resources/pics/profile1.jpeg"style="width:250px;height:auto"></a>
                            <h3 class="title_goal">UX/UI Designer - Brand Designer (Freelancer)</h3>
