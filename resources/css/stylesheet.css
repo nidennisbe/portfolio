@@ -545,6 +545,7 @@ a .cover-image {
     -o-background-size: cover;
     background-size: cover;
     color: #fff;
+    background-repeat: no-repeat;
     padding-bottom: 80px;
 }
 
