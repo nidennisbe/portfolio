@@ -139,7 +139,7 @@ nav {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: contain;
-
+    background-repeat: repeat-y;
 
     transition: top 0.2s ease-in-out;
     padding-bottom: 5px;
