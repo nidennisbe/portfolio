@@ -539,7 +539,7 @@ padding:25px;
 }
 
 a .cover-image {
-  background:url('./pics/classy-bg.jpg') no-repeat center center fixed;
+  background:url('./pics/classy-bg.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
