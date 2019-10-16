@@ -139,9 +139,9 @@ nav {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;
+  background-size: cover;
     background-repeat: repeat-y;
-
+    background-position: center;
     transition: top 0.2s ease-in-out;
     padding-bottom: 5px;
 }
